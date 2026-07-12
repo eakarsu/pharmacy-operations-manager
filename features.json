@@ -1,0 +1,6672 @@
+[
+  {
+    "name": "AI Adherence",
+    "canonicalKey": "adherence ai",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-adherence"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/patients.js:208",
+        "route": "/:id/ai-adherence",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Campaign",
+    "canonicalKey": "ai campaign",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AICampaign"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/AICampaign.js",
+        "route": "/AICampaign",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Counseling Notes",
+    "canonicalKey": "ai counseling note",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-counseling-notes"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/patients.js:118",
+        "route": "/:id/ai-counseling-notes",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Eligibility",
+    "canonicalKey": "ai eligibility",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AIEligibility"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/AIEligibility.js",
+        "route": "/AIEligibility",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Expiration",
+    "canonicalKey": "ai expiration",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AIExpiration"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/AIExpiration.js",
+        "route": "/AIExpiration",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Forecast",
+    "canonicalKey": "ai forecast",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/AIForecast",
+      "/ai-forecast"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter",
+      "ihss_scheduling"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/AIForecast.js",
+        "route": "/AIForecast",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/demandForecast.js:7",
+        "route": "/ai-forecast",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      }
+    ]
+  },
+  {
+    "name": "AI Fraud Check",
+    "canonicalKey": "ai check fraud",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-fraud-check"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/prescriptions.js:169",
+        "route": "/:id/ai-fraud-check",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Insights",
+    "canonicalKey": "ai insight",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/:id/ai-insights",
+      "/ai-insights",
+      "/dashboard/ai-insights",
+      "ai-insights"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer",
+      "AIPharmacyOperationsManager",
+      "AIpoweredembryo",
+      "coaching-wellness"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:21",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:173",
+        "route": "ai-insights",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:21",
+        "route": "/dashboard/ai-insights",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/reports.js:53",
+        "route": "/:id/ai-insights",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/dashboard.js:38",
+        "route": "/ai-insights",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "coaching-wellness",
+        "path": "src/components/Navbar.tsx:15",
+        "route": "",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "coaching-wellness",
+        "path": "src/app/ai-insights/page.tsx",
+        "route": "/ai-insights",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      }
+    ]
+  },
+  {
+    "name": "AI Reengagement",
+    "canonicalKey": "ai reengagement",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AIReengagement"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/AIReengagement.js",
+        "route": "/AIReengagement",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Stub Wiring",
+    "canonicalKey": "ai stub wiring",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:5",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Adherence Predict",
+    "canonicalKey": "adherence predict",
+    "aliases": [
+      "Predict Adherence"
+    ],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AdherencePredict",
+      "/adherence-predict",
+      "/ai/predict-adherence"
+    ],
+    "sourceProjects": [
+      "AIPatientTriageforER",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:348",
+        "route": "/adherence-predict",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:9",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:128",
+        "route": "/adherence-predict",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/AdherencePredict.js",
+        "route": "/AdherencePredict",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/routes/ehrFeat_eRx.js:872",
+        "route": "/ai/predict-adherence",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      }
+    ]
+  },
+  {
+    "name": "Admission Discharge Trend",
+    "canonicalKey": "admission discharge trend",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/admission-discharge-trend"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/customViews.js:103",
+        "route": "/admission-discharge-trend",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Advanced AI",
+    "canonicalKey": "advanced ai",
+    "aliases": [
+      "Advanced AI Tools",
+      "Advanced AI Tools Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AdvancedAITools",
+      "/AdvancedAIToolsPage",
+      "/advanced-ai",
+      "/dashboard/advanced-ai",
+      "advanced-ai"
+    ],
+    "sourceProjects": [
+      "AIHealthcareBillingOptimizer",
+      "AIHospiceCareManager",
+      "AIHospitalBedResourceOptimizer",
+      "AIIndustrialIoTAnomalyDetector",
+      "AIhomecompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:22",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:174",
+        "route": "advanced-ai",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:22",
+        "route": "/dashboard/advanced-ai",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIIndustrialIoTAnomalyDetector",
+        "path": "frontend/src/App.jsx:86",
+        "route": "/advanced-ai",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIIndustrialIoTAnomalyDetector",
+        "path": "frontend/src/pages/AdvancedAITools.jsx",
+        "route": "/AdvancedAITools",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/components/Sidebar.jsx:58",
+        "route": "",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/App.jsx:374",
+        "route": "/advanced-ai",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/components/Sidebar.jsx:58",
+        "route": "/advanced-ai",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/pages/AdvancedAITools.jsx",
+        "route": "/AdvancedAITools",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospiceCareManager",
+        "path": "client/src/pages/AdvancedAITools.js",
+        "route": "/AdvancedAITools",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/components/Sidebar.js:29",
+        "route": "",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/App.js:118",
+        "route": "/advanced-ai",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/components/Sidebar.js:29",
+        "route": "/advanced-ai",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/pages/AdvancedAIToolsPage.js",
+        "route": "/AdvancedAIToolsPage",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Adverse Events",
+    "canonicalKey": "adverse event",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AdverseEvents",
+      "/adverse-events"
+    ],
+    "sourceProjects": [
+      "AIClinicalTrialMatching",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:115",
+        "route": "/adverse-events",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/AdverseEvents.js",
+        "route": "/AdverseEvents",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:90",
+        "route": "/adverse-events",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:147",
+        "route": "/adverse-events",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/App.js:43",
+        "route": "/adverse-events",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClinicalTrialMatching",
+        "path": "frontend/src/pages/Dashboard.js:40",
+        "route": "/adverse-events",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Analytics",
+    "canonicalKey": "analytic",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/analytics",
+      "/dashboard/analytics",
+      "analytics"
+    ],
+    "sourceProjects": [
+      "AIHealthcareBillingOptimizer",
+      "AIHospitalBedResourceOptimizer",
+      "AIMentalHealthCompanion",
+      "AIPrecisionFermentationProcessOptimizer",
+      "AIhomecompanion",
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/acceleratedrug",
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:201",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:23",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:175",
+        "route": "analytics",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:23",
+        "route": "/dashboard/analytics",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:131",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPrecisionFermentationProcessOptimizer",
+        "path": "client/src/components/Sidebar.jsx:52",
+        "route": "",
+        "originApp": "healthcare-life-sciences/acceleratedrug"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/components/Sidebar.jsx:20",
+        "route": "",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/App.jsx:120",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/components/Sidebar.jsx:20",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIhomecompanion",
+        "path": "frontend/src/pages/Dashboard.jsx:17",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:33",
+        "route": "",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/App.jsx:73",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/components/Sidebar.jsx:33",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMentalHealthCompanion",
+        "path": "client/src/pages/Dashboard.jsx:25",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/components/Sidebar.js:27",
+        "route": "",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/App.js:116",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "frontend/src/components/Sidebar.js:27",
+        "route": "/analytics",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Appeal Deadlines",
+    "canonicalKey": "appeal deadline",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:109",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Appeal Drafts",
+    "canonicalKey": "appeal draft",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:110",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Appeals Workspace",
+    "canonicalKey": "appeals",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:103",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Approval Denial Rates",
+    "canonicalKey": "approval denial rate",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:136",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Assess",
+    "canonicalKey": "assess",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/assess",
+      "/assess",
+      "/multimodal/assess"
+    ],
+    "sourceProjects": [
+      "AIHIPAATrainingComplianceAuditor",
+      "AIIndustrialIoTAnomalyDetector",
+      "AIPatientTriageforER",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/adverseEvents.js:53",
+        "route": "/:id/assess",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "backend/routes/integrations.js:287",
+        "route": "/multimodal/assess",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIndustrialIoTAnomalyDetector",
+        "path": "backend/routes/sensorCalibrationDrift.js:19",
+        "route": "/assess",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHIPAATrainingComplianceAuditor",
+        "path": "backend/src/routes/minimumNecessaryTrainingDrift.js:25",
+        "route": "/assess",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "At Risk",
+    "canonicalKey": "at risk",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/at-risk"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/readmissionPrevention.js:58",
+        "route": "/at-risk",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Attached Evidence",
+    "canonicalKey": "attached evidence",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:82",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Audit Log",
+    "canonicalKey": "audit log",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "model",
+      "page"
+    ],
+    "routes": [
+      "/AuditLog",
+      "/audit-log"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager",
+      "AIPhysicalTherapyMovementAnalyzer",
+      "ai-personalized-medicine",
+      "tetrascience"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/pharmacy-operations-manager",
+      "healthcare-life-sciences/physical-therapy-movement-analyzer"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:118",
+        "route": "/audit-log",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/AuditLog.js",
+        "route": "/AuditLog",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:114",
+        "route": "/audit-log",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "tetrascience",
+        "path": "backend/src/models/AuditLog.ts",
+        "route": "",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/utility.js:124",
+        "route": "/audit-log",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-personalized-medicine",
+        "path": "backend/routes/utility.js:145",
+        "route": "/audit-log",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/App.jsx:92",
+        "route": "/audit-log",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPhysicalTherapyMovementAnalyzer",
+        "path": "frontend/src/pages/AuditLog.jsx",
+        "route": "/AuditLog",
+        "originApp": "healthcare-life-sciences/physical-therapy-movement-analyzer"
+      }
+    ]
+  },
+  {
+    "name": "Bed Forecast",
+    "canonicalKey": "bed forecast",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/bed-forecast"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:21",
+        "route": "/bed-forecast",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Bed Management",
+    "canonicalKey": "bed",
+    "aliases": [
+      "Bed Management Page",
+      "Bed Views"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/BedManagementPage"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer",
+      "AIPatientTriageforER"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:11",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:24",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/pages/BedManagementPage.js",
+        "route": "/BedManagementPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      }
+    ]
+  },
+  {
+    "name": "Bed Utilization Heatmap",
+    "canonicalKey": "bed heatmap utilization",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/bed-utilization-heatmap"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/customViews.js:55",
+        "route": "/bed-utilization-heatmap",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Blood Typing Detail",
+    "canonicalKey": "blood typing",
+    "aliases": [
+      "Blood Typing List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/BloodTypingDetail",
+      "/BloodTypingList"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/BloodTypingDetail.js",
+        "route": "/BloodTypingDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/BloodTypingList.js",
+        "route": "/BloodTypingList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Bloodtyping",
+    "canonicalKey": "bloodtyping",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/bloodtyping"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:94",
+        "route": "/bloodtyping",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:14",
+        "route": "/bloodtyping",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Campaign Content",
+    "canonicalKey": "campaign content",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/campaign-content"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "backend/routes/ai.js:114",
+        "route": "/campaign-content",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Case History",
+    "canonicalKey": "case history",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:29",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Case Model",
+    "canonicalKey": "case model",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:19",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Case Queue",
+    "canonicalKey": "case queue",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:24",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Case Timeline",
+    "canonicalKey": "case timeline",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:34",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Census",
+    "canonicalKey": "census",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/census"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/agenticCommandCenter.js:54",
+        "route": "/census",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Census Capacity Report Pdf",
+    "canonicalKey": "capacity census pdf report",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/census-capacity-report-pdf"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/customViews.js:144",
+        "route": "/census-capacity-report-pdf",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Agentic Compliance Monitoring Page",
+    "canonicalKey": "agentic cf compliance monitoring",
+    "aliases": [
+      "Cf Agentic Compliance Monitoring"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CFAgenticComplianceMonitoringPage",
+      "/cf-agentic-compliance-monitoring"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:134",
+        "route": "/cf-agentic-compliance-monitoring",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/CFAgenticComplianceMonitoringPage.js",
+        "route": "/CFAgenticComplianceMonitoringPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Agentic Hospital Command Center Visualiz",
+    "canonicalKey": "agentic cf command hospital visualiz",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfAgenticHospitalCommandCenterVisualiz",
+      "/cf-agentic-hospital-command-center-visualiz"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:51",
+        "route": "/cf-agentic-hospital-command-center-visualiz",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/CfAgenticHospitalCommandCenterVisualiz.jsx",
+        "route": "/CfAgenticHospitalCommandCenterVisualiz",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Drug Diversion Detection Page",
+    "canonicalKey": "cf detection diversion drug",
+    "aliases": [
+      "Cf Drug Diversion Detection"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CFDrugDiversionDetectionPage",
+      "/cf-drug-diversion-detection"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:135",
+        "route": "/cf-drug-diversion-detection",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/CFDrugDiversionDetectionPage.js",
+        "route": "/CFDrugDiversionDetectionPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Equipment Utilization Optimizer For Vent",
+    "canonicalKey": "cf equipment for optimizer utilization vent",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfEquipmentUtilizationOptimizerForVent",
+      "/cf-equipment-utilization-optimizer-for-vent"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:56",
+        "route": "/cf-equipment-utilization-optimizer-for-vent",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/CfEquipmentUtilizationOptimizerForVent.jsx",
+        "route": "/CfEquipmentUtilizationOptimizerForVent",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Insurance Pre Authorization Automation Page",
+    "canonicalKey": "authorization automation cf insurance pre",
+    "aliases": [
+      "Cf Insurance Pre Authorization Automation"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CFInsurancePreAuthorizationAutomationPage",
+      "/cf-insurance-pre-authorization-automation"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:137",
+        "route": "/cf-insurance-pre-authorization-automation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/CFInsurancePreAuthorizationAutomationPage.js",
+        "route": "/CFInsurancePreAuthorizationAutomationPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Length Of Stay Prediction At Admission",
+    "canonicalKey": "admission at cf length of prediction stay",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfLengthOfStayPredictionAtAdmission",
+      "/cf-length-of-stay-prediction-at-admission"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:53",
+        "route": "/cf-length-of-stay-prediction-at-admission",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/CfLengthOfStayPredictionAtAdmission.jsx",
+        "route": "/CfLengthOfStayPredictionAtAdmission",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Medication Therapy Management Mtm Page",
+    "canonicalKey": "cf medication mtm therapy",
+    "aliases": [
+      "Cf Medication Therapy Management Mtm"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CFMedicationTherapyManagementMtmPage",
+      "/cf-medication-therapy-management-mtm"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:138",
+        "route": "/cf-medication-therapy-management-mtm",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/CFMedicationTherapyManagementMtmPage.js",
+        "route": "/CFMedicationTherapyManagementMtmPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Patient Medication Synchronization Page",
+    "canonicalKey": "cf medication patient synchronization",
+    "aliases": [
+      "Cf Patient Medication Synchronization"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CFPatientMedicationSynchronizationPage",
+      "/cf-patient-medication-synchronization"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:136",
+        "route": "/cf-patient-medication-synchronization",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/CFPatientMedicationSynchronizationPage.js",
+        "route": "/CFPatientMedicationSynchronizationPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Predictive Surge Management Forecasting",
+    "canonicalKey": "cf forecasting predictive surge",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfPredictiveSurgeManagementForecasting",
+      "/cf-predictive-surge-management-forecasting-"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:52",
+        "route": "/cf-predictive-surge-management-forecasting-",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/CfPredictiveSurgeManagementForecasting.jsx",
+        "route": "/CfPredictiveSurgeManagementForecasting",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Readmission Prevention AI With Enhanced",
+    "canonicalKey": "ai cf enhanced prevention readmission with",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfReadmissionPreventionAiWithEnhanced",
+      "/cf-readmission-prevention-ai-with-enhanced-"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:55",
+        "route": "/cf-readmission-prevention-ai-with-enhanced-",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/CfReadmissionPreventionAiWithEnhanced.jsx",
+        "route": "/CfReadmissionPreventionAiWithEnhanced",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cf Staff Allocation Optimizer Predicting Ac",
+    "canonicalKey": "ac allocation cf optimizer predicting staff",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CfStaffAllocationOptimizerPredictingAc",
+      "/cf-staff-allocation-optimizer-predicting-ac"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:54",
+        "route": "/cf-staff-allocation-optimizer-predicting-ac",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/CfStaffAllocationOptimizerPredictingAc.jsx",
+        "route": "/CfStaffAllocationOptimizerPredictingAc",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Claim Denial Predict",
+    "canonicalKey": "claim denial predict",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ClaimDenialPredict",
+      "/claim-denial-predict"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:420",
+        "route": "/claim-denial-predict",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:7",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:129",
+        "route": "/claim-denial-predict",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/ClaimDenialPredict.js",
+        "route": "/ClaimDenialPredict",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Clinical Notes",
+    "canonicalKey": "clinical note",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ClinicalNotes"
+    ],
+    "sourceProjects": [
+      "AIDentalPracticeManager",
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/dental-practice-manager",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:68",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDentalPracticeManager",
+        "path": "frontend/src/pages/ClinicalNotes.js",
+        "route": "/ClinicalNotes",
+        "originApp": "healthcare-life-sciences/dental-practice-manager"
+      }
+    ]
+  },
+  {
+    "name": "Codes Service",
+    "canonicalKey": "codes service",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:27",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Collections",
+    "canonicalKey": "collection",
+    "aliases": [
+      "Collection Detail",
+      "Collection List"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/CollectionDetail",
+      "/CollectionList",
+      "/collections"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter",
+      "AIResearchLiteratureAgent"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/CollectionDetail.js",
+        "route": "/CollectionDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/CollectionList.js",
+        "route": "/CollectionList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:92",
+        "route": "/collections",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:13",
+        "route": "/collections",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIResearchLiteratureAgent",
+        "path": "frontend/src/components/Sidebar.js:5",
+        "route": "",
+        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
+      }
+    ]
+  },
+  {
+    "name": "Compliance Security",
+    "canonicalKey": "compliance security",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:145",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Components",
+    "canonicalKey": "component",
+    "aliases": [
+      "Component Detail",
+      "Component List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ComponentDetail",
+      "/ComponentList",
+      "/components"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/ComponentDetail.js",
+        "route": "/ComponentDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/ComponentList.js",
+        "route": "/ComponentList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:96",
+        "route": "/components",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:15",
+        "route": "/components",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Connector Status",
+    "canonicalKey": "connector status",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:95",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Controlled",
+    "canonicalKey": "controlled",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Controlled",
+      "/controlled"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:109",
+        "route": "/controlled",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Controlled.js",
+        "route": "/Controlled",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:42",
+        "route": "/controlled",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Counseling Tools",
+    "canonicalKey": "counseling",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:12",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cover Letter",
+    "canonicalKey": "cover letter",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:81",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Dashboard Home",
+    "canonicalKey": "dashboard home",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Date",
+    "canonicalKey": "date",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/week/:date"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/scheduling.js:12",
+        "route": "/week/:date",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Deferral Reengagement",
+    "canonicalKey": "deferral reengagement",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/deferral-reengagement"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "backend/routes/ai.js:161",
+        "route": "/deferral-reengagement",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Deferrals",
+    "canonicalKey": "deferral",
+    "aliases": [
+      "Deferral Detail",
+      "Deferral List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/DeferralDetail",
+      "/DeferralList",
+      "/deferrals"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DeferralDetail.js",
+        "route": "/DeferralDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DeferralList.js",
+        "route": "/DeferralList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:90",
+        "route": "/deferrals",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:12",
+        "route": "/deferrals",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Departments",
+    "canonicalKey": "department",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/dashboard/departments",
+      "/departments",
+      "departments"
+    ],
+    "sourceProjects": [
+      "AIHIPAATrainingComplianceAuditor",
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:14",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:166",
+        "route": "departments",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:14",
+        "route": "/dashboard/departments",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHIPAATrainingComplianceAuditor",
+        "path": "frontend/src/App.jsx:109",
+        "route": "/departments",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHIPAATrainingComplianceAuditor",
+        "path": "frontend/src/App.jsx:1636",
+        "route": "/departments",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Discharge Prediction",
+    "canonicalKey": "discharge prediction",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/discharge-prediction"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:127",
+        "route": "/discharge-prediction",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Discharge Readiness",
+    "canonicalKey": "discharge readiness",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/discharge-readiness"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:232",
+        "route": "/discharge-readiness",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Dispensing Log Pdf",
+    "canonicalKey": "dispensing log pdf",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/dispensing-log-pdf"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customViews.js:97",
+        "route": "/dispensing-log-pdf",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Dispensing Rules",
+    "canonicalKey": "dispensing rule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/dispensing-rules"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customViews.js:153",
+        "route": "/dispensing-rules",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customViews.js:163",
+        "route": "/dispensing-rules",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Diversion Detect",
+    "canonicalKey": "detect diversion",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/DiversionDetect",
+      "/diversion-detect"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:263",
+        "route": "/diversion-detect",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:8",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:127",
+        "route": "/diversion-detect",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/DiversionDetect.js",
+        "route": "/DiversionDetect",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Donations",
+    "canonicalKey": "donation",
+    "aliases": [
+      "Donation Detail",
+      "Donation List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/DonationDetail",
+      "/DonationList",
+      "/donations"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DonationDetail.js",
+        "route": "/DonationDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DonationList.js",
+        "route": "/DonationList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:86",
+        "route": "/donations",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:10",
+        "route": "/donations",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Donor Id",
+    "canonicalKey": "donor id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/donor/:donorId"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "backend/routes/rewards.js:12",
+        "route": "/donor/:donorId",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Donors",
+    "canonicalKey": "donor",
+    "aliases": [
+      "Donor Detail",
+      "Donor List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/DonorDetail",
+      "/DonorList",
+      "/donors"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DonorDetail.js",
+        "route": "/DonorDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DonorList.js",
+        "route": "/DonorList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:84",
+        "route": "/donors",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:9",
+        "route": "/donors",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Drives",
+    "canonicalKey": "drive",
+    "aliases": [
+      "Drive Detail",
+      "Drive List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/DriveDetail",
+      "/DriveList",
+      "/drives"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DriveDetail.js",
+        "route": "/DriveDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/DriveList.js",
+        "route": "/DriveList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:110",
+        "route": "/drives",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:22",
+        "route": "/drives",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Drug Interaction Widget",
+    "canonicalKey": "drug interaction widget",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/DrugInteractionWidget"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/DrugInteractionWidget.js",
+        "route": "/DrugInteractionWidget",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Drug Reviews",
+    "canonicalKey": "drug review",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/DrugReviews",
+      "/drug-reviews"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:106",
+        "route": "/drug-reviews",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:18",
+        "route": "/drug-reviews",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/DrugReviews.js",
+        "route": "/DrugReviews",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Ehr Fhir",
+    "canonicalKey": "ehr fhir",
+    "aliases": [
+      "Ehr Fhir Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/ehr/EhrFhirPage"
+    ],
+    "sourceProjects": [
+      "AIPatientTriageforER",
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:98",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/pages/ehr/EhrFhirPage.js",
+        "route": "/ehr/EhrFhirPage",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      }
+    ]
+  },
+  {
+    "name": "Ehr Sync AI",
+    "canonicalKey": "ai ehr sync",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:13",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Emergency Capacity",
+    "canonicalKey": "capacity emergency",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:19",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Emergency Planning",
+    "canonicalKey": "emergency planning",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/emergency-planning"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:147",
+        "route": "/emergency-planning",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Environment Config",
+    "canonicalKey": "config environment",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:154",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Epi Alerts",
+    "canonicalKey": "alert epi",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/epi-alerts"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/integrations.js:57",
+        "route": "/epi-alerts",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Equipment Utilization",
+    "canonicalKey": "equipment utilization",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/equipment-utilization"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/operations.js:82",
+        "route": "/equipment-utilization",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Equipment Utilization Optimizer",
+    "canonicalKey": "equipment optimizer utilization",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/equipment-utilization-optimizer"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:529",
+        "route": "/equipment-utilization-optimizer",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Escalations",
+    "canonicalKey": "escalation",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:125",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Evaluate",
+    "canonicalKey": "evaluate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/evaluate",
+      "/evaluate"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager",
+      "AIhomecompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/suppliers.js:53",
+        "route": "/:id/evaluate",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIhomecompanion",
+        "path": "backend/routes/medicationReminderEscalation.js:19",
+        "route": "/evaluate",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      }
+    ]
+  },
+  {
+    "name": "Evidence Checklist",
+    "canonicalKey": "checklist evidence",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:67",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Evidence Gap Detection",
+    "canonicalKey": "detection evidence gap",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:61",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Evidence Gap Trends",
+    "canonicalKey": "evidence gap trend",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:140",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Expiration",
+    "canonicalKey": "expiration",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ai/expiration"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:115",
+        "route": "/ai/expiration",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:28",
+        "route": "/ai/expiration",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Expiration Prediction",
+    "canonicalKey": "expiration prediction",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/expiration-prediction"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "backend/routes/ai.js:79",
+        "route": "/expiration-prediction",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Family Notification",
+    "canonicalKey": "family notification",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/twilio/family-notification"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/integrations.js:45",
+        "route": "/twilio/family-notification",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Fax Email Sftp",
+    "canonicalKey": "email fax sftp",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:97",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Financials",
+    "canonicalKey": "financial",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Financials",
+      "/financials"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:121",
+        "route": "/financials",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:138",
+        "route": "/financials",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Financials.js",
+        "route": "/Financials",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Forecast",
+    "canonicalKey": "forecast",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ai/forecast"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:118",
+        "route": "/ai/forecast",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:31",
+        "route": "/ai/forecast",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Form Validation",
+    "canonicalKey": "form validation",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:83",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Formulary Review",
+    "canonicalKey": "formulary review",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/FormularyReview",
+      "/formulary-review"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:176",
+        "route": "/formulary-review",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:126",
+        "route": "/formulary-review",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:162",
+        "route": "/formulary-review",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/FormularyReview.js",
+        "route": "/FormularyReview",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Aiadvanced Js And Airesults Js Exist But Tsv Shows",
+    "canonicalKey": "aiadvanced airesult and but exist gap js show tsv",
+    "aliases": [
+      "Gap Aiadvanced Js And Airesults Js Exist But Tsv Shows Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapAiadvancedJsAndAiresultsJsExistButTsvShowsPage",
+      "/gap-aiadvanced-js-and-airesults-js-exist-but-tsv-shows"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:139",
+        "route": "/gap-aiadvanced-js-and-airesults-js-exist-but-tsv-shows",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapAiadvancedJsAndAiresultsJsExistButTsvShowsPage.js",
+        "route": "/GapAiadvancedJsAndAiresultsJsExistButTsvShowsPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Claims Without Claim Page",
+    "canonicalKey": "claim claims gap without",
+    "aliases": [
+      "Gap Claims Without Claim"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapClaimsWithoutClaimPage",
+      "/gap-claims-without-claim"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:141",
+        "route": "/gap-claims-without-claim",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapClaimsWithoutClaimPage.js",
+        "route": "/GapClaimsWithoutClaimPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Controlled Without Diversion Page",
+    "canonicalKey": "controlled diversion gap without",
+    "aliases": [
+      "Gap Controlled Without Diversion"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapControlledWithoutDiversionPage",
+      "/gap-controlled-without-diversion"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:142",
+        "route": "/gap-controlled-without-diversion",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapControlledWithoutDiversionPage.js",
+        "route": "/GapControlledWithoutDiversionPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Inventory Without Reorder Page",
+    "canonicalKey": "gap inventory reorder without",
+    "aliases": [
+      "Gap Inventory Without Reorder"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapInventoryWithoutReorderPage",
+      "/gap-inventory-without-reorder"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:140",
+        "route": "/gap-inventory-without-reorder",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapInventoryWithoutReorderPage.js",
+        "route": "/GapInventoryWithoutReorderPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited Ncpdp Integration Integrations Stub But No Page",
+    "canonicalKey": "but gap integration integrations limited ncpdp no stub",
+    "aliases": [
+      "Gap Limited Ncpdp Integration Integrations Stub But No"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapLimitedNcpdpIntegrationIntegrationsStubButNoPage",
+      "/gap-limited-ncpdp-integration-integrations-stub-but-no"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:144",
+        "route": "/gap-limited-ncpdp-integration-integrations-stub-but-no",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapLimitedNcpdpIntegrationIntegrationsStubButNoPage.js",
+        "route": "/GapLimitedNcpdpIntegrationIntegrationsStubButNoPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Limited Patient Counseling Tools Page",
+    "canonicalKey": "counseling gap limited patient",
+    "aliases": [
+      "Gap Limited Patient Counseling Tools"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapLimitedPatientCounselingToolsPage",
+      "/gap-limited-patient-counseling-tools"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:146",
+        "route": "/gap-limited-patient-counseling-tools",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapLimitedPatientCounselingToolsPage.js",
+        "route": "/GapLimitedPatientCounselingToolsPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Mtm Module Exists But Workflow Depth Unclear Page",
+    "canonicalKey": "but depth exists gap mtm unclear workflow",
+    "aliases": [
+      "Gap Mtm Module Exists But Workflow Depth Unclear"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapMtmModuleExistsButWorkflowDepthUnclearPage",
+      "/gap-mtm-module-exists-but-workflow-depth-unclear"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:150",
+        "route": "/gap-mtm-module-exists-but-workflow-depth-unclear",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapMtmModuleExistsButWorkflowDepthUnclearPage.js",
+        "route": "/GapMtmModuleExistsButWorkflowDepthUnclearPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Automated Census Balancing Agent Acro",
+    "canonicalKey": "acro agent automated balancing census gap no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoAutomatedCensusBalancingAgentAcro",
+      "/gap-no-automated-census-balancing-agent-acro"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:59",
+        "route": "/gap-no-automated-census-balancing-agent-acro",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoAutomatedCensusBalancingAgentAcro.jsx",
+        "route": "/GapNoAutomatedCensusBalancingAgentAcro",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Billingcoding Integration",
+    "canonicalKey": "billingcoding gap integration no",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoBillingcodingIntegration",
+      "/gap-no-billingcoding-integration"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:61",
+        "route": "/gap-no-billingcoding-integration",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoBillingcodingIntegration.jsx",
+        "route": "/GapNoBillingcodingIntegration",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Clinical Decision Support Drug Intera",
+    "canonicalKey": "clinical decision drug gap intera no support",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoClinicalDecisionSupportDrugIntera",
+      "/gap-no-clinical-decision-support-drug-intera"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:63",
+        "route": "/gap-no-clinical-decision-support-drug-intera",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoClinicalDecisionSupportDrugIntera.jsx",
+        "route": "/GapNoClinicalDecisionSupportDrugIntera",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Icu Step Down Recommendation",
+    "canonicalKey": "down gap icu no recommendation step",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoIcuStepDownRecommendation",
+      "/gap-no-icu-step-down-recommendation"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:58",
+        "route": "/gap-no-icu-step-down-recommendation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoIcuStepDownRecommendation.jsx",
+        "route": "/GapNoIcuStepDownRecommendation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Insurance Verification Automation Page",
+    "canonicalKey": "automation gap insurance no verification",
+    "aliases": [
+      "Gap No Insurance Verification Automation"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoInsuranceVerificationAutomationPage",
+      "/gap-no-insurance-verification-automation"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:145",
+        "route": "/gap-no-insurance-verification-automation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapNoInsuranceVerificationAutomationPage.js",
+        "route": "/GapNoInsuranceVerificationAutomationPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Mobile App For Pharmacists On The Floor Page",
+    "canonicalKey": "floor for gap mobile no on pharmacists the",
+    "aliases": [
+      "Gap No Mobile App For Pharmacists On The Floor"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoMobileAppForPharmacistsOnTheFloorPage",
+      "/gap-no-mobile-app-for-pharmacists-on-the-floor"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:149",
+        "route": "/gap-no-mobile-app-for-pharmacists-on-the-floor",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapNoMobileAppForPharmacistsOnTheFloorPage.js",
+        "route": "/GapNoMobileAppForPharmacistsOnTheFloorPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Patientfamily Communication Portal",
+    "canonicalKey": "communication gap no patientfamily portal",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoPatientfamilyCommunicationPortal",
+      "/gap-no-patientfamily-communication-portal"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:62",
+        "route": "/gap-no-patientfamily-communication-portal",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoPatientfamilyCommunicationPortal.jsx",
+        "route": "/GapNoPatientfamilyCommunicationPortal",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Providerclinician Scheduling Beyond S",
+    "canonicalKey": "beyond gap no providerclinician s scheduling",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoProviderclinicianSchedulingBeyondS",
+      "/gap-no-providerclinician-scheduling-beyond-s"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:60",
+        "route": "/gap-no-providerclinician-scheduling-beyond-s",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoProviderclinicianSchedulingBeyondS.jsx",
+        "route": "/GapNoProviderclinicianSchedulingBeyondS",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Readmission Risk Prediction",
+    "canonicalKey": "gap no prediction readmission risk",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoReadmissionRiskPrediction",
+      "/gap-no-readmission-risk-prediction"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:57",
+        "route": "/gap-no-readmission-risk-prediction",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoReadmissionRiskPrediction.jsx",
+        "route": "/GapNoReadmissionRiskPrediction",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Real Time Websocket Bed Board",
+    "canonicalKey": "bed board gap no real time websocket",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoRealTimeWebsocketBedBoard",
+      "/gap-no-real-time-websocket-bed-board"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/App.js:65",
+        "route": "/gap-no-real-time-websocket-bed-board",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/pages/GapNoRealTimeWebsocketBedBoard.jsx",
+        "route": "/GapNoRealTimeWebsocketBedBoard",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap No Webhooks For Prescription Events",
+    "canonicalKey": "event for gap no prescription webhook",
+    "aliases": [
+      "Gap No Webhooks For Prescription Events Page"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapNoWebhooksForPrescriptionEventsPage",
+      "/gap-no-webhooks-for-prescription-events"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:148",
+        "route": "/gap-no-webhooks-for-prescription-events",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapNoWebhooksForPrescriptionEventsPage.js",
+        "route": "/GapNoWebhooksForPrescriptionEventsPage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Gap Patients Without Adherence Page",
+    "canonicalKey": "adherence gap patients without",
+    "aliases": [
+      "Gap Patients Without Adherence"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/GapPatientsWithoutAdherencePage",
+      "/gap-patients-without-adherence"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:143",
+        "route": "/gap-patients-without-adherence",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/GapPatientsWithoutAdherencePage.js",
+        "route": "/GapPatientsWithoutAdherencePage",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Icu Step Down Recommendation",
+    "canonicalKey": "down icu recommendation step",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/icu-step-down-recommendation"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:394",
+        "route": "/icu-step-down-recommendation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Insurance Verify AI",
+    "canonicalKey": "ai insurance verify",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:11",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Interaction Check AI",
+    "canonicalKey": "ai check interaction",
+    "aliases": [
+      "AI Interaction Check"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/InteractionCheckAI",
+      "/api/supplements/ai-interaction-check",
+      "/interaction-check-ai"
+    ],
+    "sourceProjects": [
+      "AINutritionDietitianAssistant",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:502",
+        "route": "/interaction-check-ai",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:130",
+        "route": "/interaction-check-ai",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/InteractionCheckAI.js",
+        "route": "/InteractionCheckAI",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AINutritionDietitianAssistant",
+        "path": "server/index.js:546",
+        "route": "/api/supplements/ai-interaction-check",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Interactions",
+    "canonicalKey": "interaction",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Interactions",
+      "/interactions"
+    ],
+    "sourceProjects": [
+      "AIDrugInteractionChecker",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:112",
+        "route": "/interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:66",
+        "route": "/interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Interactions.js",
+        "route": "/Interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/App.js:63",
+        "route": "/interactions",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/components/Layout.js:7",
+        "route": "/interactions",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDrugInteractionChecker",
+        "path": "frontend/src/pages/Dashboard.js:6",
+        "route": "/interactions",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      }
+    ]
+  },
+  {
+    "name": "Interventions",
+    "canonicalKey": "intervention",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sessions/:id/interventions"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/mtm.js:81",
+        "route": "/sessions/:id/interventions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/mtm.js:88",
+        "route": "/sessions/:id/interventions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Inventory Heatmap",
+    "canonicalKey": "heatmap inventory",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/inventory-heatmap"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customViews.js:72",
+        "route": "/inventory-heatmap",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Isolation Bed Match",
+    "canonicalKey": "bed isolation match",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/dashboard/isolation-bed-match",
+      "isolation-bed-match"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:20",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:172",
+        "route": "isolation-bed-match",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:20",
+        "route": "/dashboard/isolation-bed-match",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Labs Imaging",
+    "canonicalKey": "imaging labs",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:69",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Length Of Stay Prediction",
+    "canonicalKey": "length of prediction stay",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/length-of-stay-prediction"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:441",
+        "route": "/length-of-stay-prediction",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Lifecycle Progress",
+    "canonicalKey": "lifecycle progress",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:39",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Lookup",
+    "canonicalKey": "lookup",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/lookup"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/drugInteractionLookup.js:20",
+        "route": "/lookup",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Los Stats",
+    "canonicalKey": "los stat",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/los-stats"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/operations.js:27",
+        "route": "/los-stats",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Mark All Read",
+    "canonicalKey": "all mark read",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/mark-all-read"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/notifications.js:50",
+        "route": "/mark-all-read",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Medication Review",
+    "canonicalKey": "medication review",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/medication-review"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/patients.js:80",
+        "route": "/:id/medication-review",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Medication Therapy History",
+    "canonicalKey": "history medication therapy",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:70",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Missing Evidence",
+    "canonicalKey": "evidence missing",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:66",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Mobile Pharmacist AI",
+    "canonicalKey": "ai mobile pharmacist",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:15",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Module",
+    "canonicalKey": "module",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/filter/by-module/:module"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/auditLog.js:39",
+        "route": "/filter/by-module/:module",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Mrn",
+    "canonicalKey": "mrn",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/fhir/patient/:mrn"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/integrations.js:32",
+        "route": "/fhir/patient/:mrn",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Mtm Workflow AI",
+    "canonicalKey": "ai mtm workflow",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:16",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Ncpdp Integration",
+    "canonicalKey": "integration ncpdp",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:10",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Next Actions",
+    "canonicalKey": "action next",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:42",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Not Found",
+    "canonicalKey": "found not",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/"
+    ],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/app/not-found.tsx",
+        "route": "/",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Notification Triggers",
+    "canonicalKey": "notification trigger",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:126",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Operating Rooms",
+    "canonicalKey": "operating room",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/dashboard/operating-rooms",
+      "operating-rooms"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:17",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:169",
+        "route": "operating-rooms",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:17",
+        "route": "/dashboard/operating-rooms",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Optimize",
+    "canonicalKey": "optimize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/optimize",
+      "/optimize"
+    ],
+    "sourceProjects": [
+      "AIHealthcareBillingOptimizer",
+      "AIIndustrialIoTAnomalyDetector",
+      "AIPharmacyOperationsManager",
+      "ihss_scheduling"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/coaching-wellness-merged",
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/workflow.js:53",
+        "route": "/:id/optimize",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIIndustrialIoTAnomalyDetector",
+        "path": "backend/routes/energy.js:84",
+        "route": "/:id/optimize",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ihss_scheduling",
+        "path": "backend/routes/scheduleOptimizer.js:9",
+        "route": "/optimize",
+        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "backend/src/routes/coding.js:88",
+        "route": "/:id/optimize",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Or Optimization",
+    "canonicalKey": "optimization or",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/or-optimization"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:176",
+        "route": "/or-optimization",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Orders",
+    "canonicalKey": "order",
+    "aliases": [
+      "Order",
+      "Order Detail",
+      "Order List"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/OrderDetail",
+      "/OrderList",
+      "/cooper/order",
+      "/ehr/orders",
+      "/igenomix/order",
+      "/lis/orders",
+      "/natera/order",
+      "/orders"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter",
+      "AIPathologySlideAnalyzer",
+      "AIPatientTriageforER",
+      "AIpoweredembryo"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/ambulance-ems-dispatch",
+      "healthcare-life-sciences/industrial-io-t-anomaly-detector",
+      "healthcare-life-sciences/patient-triagefor-er",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/OrderDetail.js",
+        "route": "/OrderDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/OrderList.js",
+        "route": "/OrderList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:100",
+        "route": "/orders",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:17",
+        "route": "/orders",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/App.js:123",
+        "route": "/ehr/orders",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPatientTriageforER",
+        "path": "frontend/src/components/Layout.js:9",
+        "route": "/ehr/orders",
+        "originApp": "healthcare-life-sciences/patient-triagefor-er"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPathologySlideAnalyzer",
+        "path": "backend/src/extensions.js:163",
+        "route": "/lis/orders",
+        "originApp": "healthcare-life-sciences/ambulance-ems-dispatch"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/lab-vendors.js:18",
+        "route": "/cooper/order",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/lab-vendors.js:23",
+        "route": "/igenomix/order",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIpoweredembryo",
+        "path": "backend/routes/lab-vendors.js:28",
+        "route": "/natera/order",
+        "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
+      }
+    ]
+  },
+  {
+    "name": "Overdue Cases",
+    "canonicalKey": "case overdue",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:123",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Packet Builder",
+    "canonicalKey": "builder packet",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:75",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Packet Readiness",
+    "canonicalKey": "packet readiness",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:80",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Patient Provider",
+    "canonicalKey": "patient provider",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:25",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Patient Tracking",
+    "canonicalKey": "patient tracking",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:12",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Payer Plan",
+    "canonicalKey": "payer plan",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:26",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Payer Rule Engine",
+    "canonicalKey": "engine payer rule",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:47",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Payer Trends",
+    "canonicalKey": "payer trend",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:137",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Phi Redaction",
+    "canonicalKey": "phi redaction",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:152",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Policy Matching",
+    "canonicalKey": "matching policy",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:52",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Preauth",
+    "canonicalKey": "preauth",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/pbm/preauth"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/integrations.js:68",
+        "route": "/pbm/preauth",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Prescription Timeline",
+    "canonicalKey": "prescription timeline",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/prescription-timeline"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/customViews.js:39",
+        "route": "/prescription-timeline",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Prior Therapy Checks",
+    "canonicalKey": "check prior therapy",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:54",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Procedure Trends",
+    "canonicalKey": "procedure trend",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:138",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Process",
+    "canonicalKey": "process",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/process"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/claims.js:64",
+        "route": "/:id/process",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Production Readiness",
+    "canonicalKey": "production readiness",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/production-readiness"
+    ],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/app/(protected)/production-readiness/page.tsx",
+        "route": "/production-readiness",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Reactions",
+    "canonicalKey": "reaction",
+    "aliases": [
+      "Reaction Detail",
+      "Reaction List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ReactionDetail",
+      "/ReactionList",
+      "/reactions"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/ReactionDetail.js",
+        "route": "/ReactionDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/ReactionList.js",
+        "route": "/ReactionList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:104",
+        "route": "/reactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:19",
+        "route": "/reactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Readmission Risk Prediction",
+    "canonicalKey": "prediction readmission risk",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/readmission-risk-prediction"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:345",
+        "route": "/readmission-risk-prediction",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Reconcile",
+    "canonicalKey": "reconcile",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/reconcile"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/controlled.js:113",
+        "route": "/:id/reconcile",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Reengagement",
+    "canonicalKey": "reengagement",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ai/reengagement"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:117",
+        "route": "/ai/reengagement",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:30",
+        "route": "/ai/reengagement",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Reorder Optimize",
+    "canonicalKey": "optimize reorder",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/reorder-optimize"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:87",
+        "route": "/reorder-optimize",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Reorder Optimizer",
+    "canonicalKey": "optimizer reorder",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ReorderOptimizer",
+      "/reorder-optimizer"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:125",
+        "route": "/reorder-optimizer",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:154",
+        "route": "/reorder-optimizer",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/ReorderOptimizer.js",
+        "route": "/ReorderOptimizer",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Reorder Predict",
+    "canonicalKey": "predict reorder",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:6",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Required Criteria",
+    "canonicalKey": "criteria required",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:53",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Resource Optimization",
+    "canonicalKey": "optimization resource",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/resource-optimization"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:101",
+        "route": "/resource-optimization",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Resubmissions",
+    "canonicalKey": "resubmission",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:112",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Reviewer Assignment",
+    "canonicalKey": "assignment reviewer",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:111",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Rewards",
+    "canonicalKey": "reward",
+    "aliases": [
+      "Reward Detail",
+      "Reward List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/RewardDetail",
+      "/RewardList",
+      "/rewards"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/RewardDetail.js",
+        "route": "/RewardDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/RewardList.js",
+        "route": "/RewardList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:112",
+        "route": "/rewards",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:23",
+        "route": "/rewards",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Routing Rules",
+    "canonicalKey": "routing rule",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/routing-rules"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/customViews.js:245",
+        "route": "/routing-rules",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/customViews.js:260",
+        "route": "/routing-rules",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Rule Confidence",
+    "canonicalKey": "confidence rule",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:56",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Rx Webhooks AI",
+    "canonicalKey": "ai rx webhooks",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/components/Navbar.js:14",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Scan Image",
+    "canonicalKey": "image scan",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/scan-image"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/prescriptions.js:124",
+        "route": "/scan-image",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Sla Automation",
+    "canonicalKey": "automation sla",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:117",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Sla Queue",
+    "canonicalKey": "queue sla",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:122",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Slug",
+    "canonicalKey": "slug",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:slug",
+      "/[slug]",
+      "/blog/[slug]",
+      "/features/[slug]"
+    ],
+    "sourceProjects": [
+      "AIHealthcareBillingOptimizer",
+      "ai-prior-authorization-operations-hub",
+      "healthcare"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/app/(protected)/[slug]/page.tsx",
+        "route": "/[slug]",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/app/(protected)/features/[slug]/page.tsx",
+        "route": "/features/[slug]",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIHealthcareBillingOptimizer",
+        "path": "backend/src/routes/integrations.js:189",
+        "route": "/:slug",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "healthcare",
+        "path": "src/app/(marketing)/blog/[slug]/page.tsx",
+        "route": "/blog/[slug]",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Snapshot",
+    "canonicalKey": "snapshot",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/snapshot"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/agenticCommandCenter.js:15",
+        "route": "/snapshot",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Source Tables",
+    "canonicalKey": "source table",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/source-tables"
+    ],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/app/(protected)/source-tables/page.tsx",
+        "route": "/source-tables",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Staff",
+    "canonicalKey": "staff",
+    "aliases": [
+      "Staff Detail",
+      "Staff List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Staff",
+      "/StaffDetail",
+      "/StaffList",
+      "/dashboard/staff",
+      "/staff",
+      "staff"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter",
+      "AIHospitalBedResourceOptimizer",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:108",
+        "route": "/staff",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:21",
+        "route": "/staff",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:165",
+        "route": "staff",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:13",
+        "route": "/dashboard/staff",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:114",
+        "route": "/staff",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:82",
+        "route": "/staff",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Staff.js",
+        "route": "/Staff",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/StaffDetail.js",
+        "route": "/StaffDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/StaffList.js",
+        "route": "/StaffList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Staff Allocation Optimizer",
+    "canonicalKey": "allocation optimizer staff",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/staff-allocation-optimizer"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:483",
+        "route": "/staff-allocation-optimizer",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Staff Optimization",
+    "canonicalKey": "optimization staff",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/staff-optimization"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:76",
+        "route": "/staff-optimization",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Staff Scheduling",
+    "canonicalKey": "scheduling staff",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:13",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Stage Activity",
+    "canonicalKey": "activity stage",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:40",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Status Changes",
+    "canonicalKey": "change status",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:41",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Status Polling",
+    "canonicalKey": "polling status",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:96",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Subfeature",
+    "canonicalKey": "subfeature",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/prior-auth/[feature]/[subfeature]"
+    ],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/app/(protected)/prior-auth/[feature]/[subfeature]/page.tsx",
+        "route": "/prior-auth/[feature]/[subfeature]",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Submission Bundle",
+    "canonicalKey": "bundle submission",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:84",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Submission Queue",
+    "canonicalKey": "queue submission",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:94",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Submissions Integrations",
+    "canonicalKey": "integration submissions",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:89",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Suggest Bed Assignment",
+    "canonicalKey": "assignment bed suggest",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/suggest-bed-assignment"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "backend/routes/ai.js:290",
+        "route": "/suggest-bed-assignment",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Suppliers",
+    "canonicalKey": "supplier",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Suppliers",
+      "/suppliers"
+    ],
+    "sourceProjects": [
+      "AIMedicalDeviceComplianceManager",
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/hipaa-training-compliance-auditor",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:113",
+        "route": "/suppliers",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:74",
+        "route": "/suppliers",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Suppliers.js",
+        "route": "/Suppliers",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "client/src/App.jsx:157",
+        "route": "/suppliers",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMedicalDeviceComplianceManager",
+        "path": "client/src/App.jsx:311",
+        "route": "/suppliers",
+        "originApp": "healthcare-life-sciences/hipaa-training-compliance-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Supplies",
+    "canonicalKey": "supply",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/dashboard/supplies",
+      "supplies"
+    ],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Dashboard.js:170",
+        "route": "supplies",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:18",
+        "route": "/dashboard/supplies",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Supply Chain",
+    "canonicalKey": "chain supply",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIHospitalBedResourceOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/Sidebar.js:18",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Transfers",
+    "canonicalKey": "transfer",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Transfers",
+      "/transfers"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:120",
+        "route": "/transfers",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:130",
+        "route": "/transfers",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Transfers.js",
+        "route": "/Transfers",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Transportation",
+    "canonicalKey": "transportation",
+    "aliases": [
+      "Transportation Detail",
+      "Transportation List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/TransportationDetail",
+      "/TransportationList",
+      "/transportation"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter",
+      "AIElderCareCompanion"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/elder-care-companion",
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/App.js:102",
+        "route": "/transportation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/Dashboard.js:18",
+        "route": "/transportation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/TransportationDetail.js",
+        "route": "/TransportationDetail",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "frontend/src/pages/TransportationList.js",
+        "route": "/TransportationList",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIElderCareCompanion",
+        "path": "frontend/src/App.js:68",
+        "route": "/transportation",
+        "originApp": "healthcare-life-sciences/elder-care-companion"
+      }
+    ]
+  },
+  {
+    "name": "Turnaround Time",
+    "canonicalKey": "time turnaround",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:139",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Unread",
+    "canonicalKey": "unread",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/unread"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/notifications.js:12",
+        "route": "/unread",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Urgent Cases",
+    "canonicalKey": "case urgent",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "ai-prior-authorization-operations-hub"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "ai-prior-authorization-operations-hub",
+        "path": "frontend/src/lib/priorAuthNavigation.ts:124",
+        "route": "",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "User Name",
+    "canonicalKey": "name user",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/filter/by-user/:userName"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/auditLog.js:32",
+        "route": "/filter/by-user/:userName",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Workflow",
+    "canonicalKey": "workflow",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Workflow",
+      "/workflow"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:116",
+        "route": "/workflow",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Dashboard.js:98",
+        "route": "/workflow",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Workflow.js",
+        "route": "/Workflow",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  }
+]
