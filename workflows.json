@@ -1,0 +1,774 @@
+{
+  "version": 1,
+  "appId": "pharmacy-operations-manager",
+  "workflows": [
+    {
+      "id": "prescription-intake-validation",
+      "title": "Prescription Intake Validation",
+      "description": "Capture a prescription, validate required clinical and operational details, and route exceptions before fulfillment.",
+      "fields": [
+        {
+          "key": "patientReference",
+          "label": "Patient reference",
+          "type": "text",
+          "required": true,
+          "default": "PAT-DEMO-1001"
+        },
+        {
+          "key": "medication",
+          "label": "Medication and strength",
+          "type": "text",
+          "required": true,
+          "default": "Metformin 500 mg"
+        },
+        {
+          "key": "directions",
+          "label": "Directions",
+          "type": "textarea",
+          "required": true,
+          "default": "Take one tablet twice daily with meals."
+        },
+        {
+          "key": "prescriberReference",
+          "label": "Prescriber reference",
+          "type": "text",
+          "required": true,
+          "default": "PRV-DEMO-22"
+        },
+        {
+          "key": "validationResult",
+          "label": "Validation result",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Pending",
+            "Valid",
+            "Needs clarification"
+          ],
+          "default": "Pending"
+        }
+      ],
+      "states": [
+        "received",
+        "validated",
+        "held",
+        "released"
+      ],
+      "transitions": [
+        {
+          "id": "prescription-intake-validation-validated",
+          "label": "Move to validated",
+          "from": [
+            "received"
+          ],
+          "to": "validated"
+        },
+        {
+          "id": "prescription-intake-validation-held",
+          "label": "Move to held",
+          "from": [
+            "validated"
+          ],
+          "to": "held"
+        },
+        {
+          "id": "prescription-intake-validation-released",
+          "label": "Move to released",
+          "from": [
+            "held"
+          ],
+          "to": "released"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "prescription-intake-validation-demo",
+          "state": "received",
+          "patientReference": "PAT-DEMO-1001",
+          "medication": "Metformin 500 mg",
+          "directions": "Take one tablet twice daily with meals.",
+          "prescriberReference": "PRV-DEMO-22",
+          "validationResult": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "clinical-interaction-review",
+      "title": "Clinical Interaction Review",
+      "description": "Record interaction evidence and pharmacist judgment for a locally analyzed medication profile.",
+      "fields": [
+        {
+          "key": "patientReference",
+          "label": "Patient reference",
+          "type": "text",
+          "required": true,
+          "default": "PAT-DEMO-1001"
+        },
+        {
+          "key": "medications",
+          "label": "Current medications",
+          "type": "textarea",
+          "required": true,
+          "default": "Metformin; lisinopril; simvastatin"
+        },
+        {
+          "key": "allergies",
+          "label": "Known allergies",
+          "type": "text",
+          "required": true,
+          "default": "Penicillin"
+        },
+        {
+          "key": "riskLevel",
+          "label": "Detected risk",
+          "type": "select",
+          "required": true,
+          "options": [
+            "None",
+            "Low",
+            "Moderate",
+            "High"
+          ],
+          "default": "Moderate"
+        },
+        {
+          "key": "pharmacist",
+          "label": "Reviewing pharmacist",
+          "type": "text",
+          "required": true,
+          "default": "Demo Pharmacist"
+        }
+      ],
+      "states": [
+        "queued",
+        "analyzed",
+        "pharmacist_review",
+        "cleared"
+      ],
+      "transitions": [
+        {
+          "id": "clinical-interaction-review-analyzed",
+          "label": "Move to analyzed",
+          "from": [
+            "queued"
+          ],
+          "to": "analyzed"
+        },
+        {
+          "id": "clinical-interaction-review-pharmacist_review",
+          "label": "Move to pharmacist review",
+          "from": [
+            "analyzed"
+          ],
+          "to": "pharmacist_review"
+        },
+        {
+          "id": "clinical-interaction-review-cleared",
+          "label": "Move to cleared",
+          "from": [
+            "pharmacist_review"
+          ],
+          "to": "cleared"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "clinical-interaction-review-demo",
+          "state": "queued",
+          "patientReference": "PAT-DEMO-1001",
+          "medications": "Metformin; lisinopril; simvastatin",
+          "allergies": "Penicillin",
+          "riskLevel": "Moderate",
+          "pharmacist": "Demo Pharmacist"
+        }
+      ]
+    },
+    {
+      "id": "inventory-reorder-planning",
+      "title": "Inventory Reorder Planning",
+      "description": "Forecast medication demand, review stock and expiry exposure, and approve a local reorder decision.",
+      "fields": [
+        {
+          "key": "ndcOrSku",
+          "label": "NDC or SKU",
+          "type": "text",
+          "required": true,
+          "default": "00000-DEMO-01"
+        },
+        {
+          "key": "medication",
+          "label": "Medication",
+          "type": "text",
+          "required": true,
+          "default": "Metformin 500 mg"
+        },
+        {
+          "key": "onHand",
+          "label": "On-hand units",
+          "type": "number",
+          "required": true,
+          "default": 420
+        },
+        {
+          "key": "forecastDemand",
+          "label": "30-day forecast units",
+          "type": "number",
+          "required": true,
+          "default": 650
+        },
+        {
+          "key": "leadTimeDays",
+          "label": "Supplier lead time days",
+          "type": "number",
+          "required": true,
+          "default": 7
+        }
+      ],
+      "states": [
+        "forecasted",
+        "reviewed",
+        "approved",
+        "deferred"
+      ],
+      "transitions": [
+        {
+          "id": "inventory-reorder-planning-reviewed",
+          "label": "Move to reviewed",
+          "from": [
+            "forecasted"
+          ],
+          "to": "reviewed"
+        },
+        {
+          "id": "inventory-reorder-planning-approved",
+          "label": "Move to approved",
+          "from": [
+            "reviewed"
+          ],
+          "to": "approved"
+        },
+        {
+          "id": "inventory-reorder-planning-deferred",
+          "label": "Move to deferred",
+          "from": [
+            "approved"
+          ],
+          "to": "deferred"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "inventory-reorder-planning-demo",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01",
+          "medication": "Metformin 500 mg",
+          "onHand": 420,
+          "forecastDemand": 650,
+          "leadTimeDays": 7
+        }
+      ]
+    },
+    {
+      "id": "diversion-risk-review",
+      "title": "Diversion Risk Review",
+      "description": "Triage controlled-substance signals, document evidence, and close or escalate a compliance review.",
+      "fields": [
+        {
+          "key": "eventReference",
+          "label": "Event reference",
+          "type": "text",
+          "required": true,
+          "default": "DIV-DEMO-044"
+        },
+        {
+          "key": "substanceClass",
+          "label": "Substance class",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Schedule II",
+            "Schedule III",
+            "Schedule IV",
+            "Schedule V"
+          ],
+          "default": "Schedule II"
+        },
+        {
+          "key": "signal",
+          "label": "Risk signal",
+          "type": "textarea",
+          "required": true,
+          "default": "Early refill frequency exceeds the local review threshold."
+        },
+        {
+          "key": "riskScore",
+          "label": "Risk score",
+          "type": "number",
+          "required": true,
+          "default": 78
+        },
+        {
+          "key": "reviewOwner",
+          "label": "Review owner",
+          "type": "text",
+          "required": true,
+          "default": "Compliance Pharmacist"
+        }
+      ],
+      "states": [
+        "flagged",
+        "investigating",
+        "escalated",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "diversion-risk-review-investigating",
+          "label": "Move to investigating",
+          "from": [
+            "flagged"
+          ],
+          "to": "investigating"
+        },
+        {
+          "id": "diversion-risk-review-escalated",
+          "label": "Move to escalated",
+          "from": [
+            "investigating"
+          ],
+          "to": "escalated"
+        },
+        {
+          "id": "diversion-risk-review-closed",
+          "label": "Move to closed",
+          "from": [
+            "escalated"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "diversion-risk-review-demo",
+          "state": "flagged",
+          "eventReference": "DIV-DEMO-044",
+          "substanceClass": "Schedule II",
+          "signal": "Early refill frequency exceeds the local review threshold.",
+          "riskScore": 78,
+          "reviewOwner": "Compliance Pharmacist"
+        }
+      ]
+    },
+    {
+      "id": "adherence-intervention",
+      "title": "Adherence Intervention",
+      "description": "Identify an adherence gap, plan respectful outreach, and track follow-up without claiming patient contact occurred.",
+      "fields": [
+        {
+          "key": "patientReference",
+          "label": "Patient reference",
+          "type": "text",
+          "required": true,
+          "default": "PAT-DEMO-1002"
+        },
+        {
+          "key": "medication",
+          "label": "Medication",
+          "type": "text",
+          "required": true,
+          "default": "Atorvastatin 20 mg"
+        },
+        {
+          "key": "gapDays",
+          "label": "Estimated gap days",
+          "type": "number",
+          "required": true,
+          "default": 12
+        },
+        {
+          "key": "preferredChannel",
+          "label": "Preferred channel",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Phone",
+            "SMS",
+            "Email",
+            "In person"
+          ],
+          "default": "Phone"
+        },
+        {
+          "key": "consentStatus",
+          "label": "Communication consent",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Needs verification",
+            "Confirmed",
+            "Declined"
+          ],
+          "default": "Needs verification"
+        }
+      ],
+      "states": [
+        "identified",
+        "outreach_planned",
+        "contacted",
+        "follow_up",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "adherence-intervention-outreach_planned",
+          "label": "Move to outreach planned",
+          "from": [
+            "identified"
+          ],
+          "to": "outreach_planned"
+        },
+        {
+          "id": "adherence-intervention-contacted",
+          "label": "Move to contacted",
+          "from": [
+            "outreach_planned"
+          ],
+          "to": "contacted"
+        },
+        {
+          "id": "adherence-intervention-follow_up",
+          "label": "Move to follow up",
+          "from": [
+            "contacted"
+          ],
+          "to": "follow_up"
+        },
+        {
+          "id": "adherence-intervention-closed",
+          "label": "Move to closed",
+          "from": [
+            "follow_up"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "adherence-intervention-demo",
+          "state": "identified",
+          "patientReference": "PAT-DEMO-1002",
+          "medication": "Atorvastatin 20 mg",
+          "gapDays": 12,
+          "preferredChannel": "Phone",
+          "consentStatus": "Needs verification"
+        }
+      ]
+    },
+    {
+      "id": "insurance-prior-authorization",
+      "title": "Insurance Prior Authorization",
+      "description": "Assemble evidence, complete review, and track a payer-ready authorization package with explicit connection status.",
+      "fields": [
+        {
+          "key": "patientReference",
+          "label": "Patient reference",
+          "type": "text",
+          "required": true,
+          "default": "PAT-DEMO-1003"
+        },
+        {
+          "key": "medication",
+          "label": "Requested medication",
+          "type": "text",
+          "required": true,
+          "default": "Demo specialty therapy"
+        },
+        {
+          "key": "payer",
+          "label": "Payer",
+          "type": "text",
+          "required": true,
+          "default": "Sandbox payer"
+        },
+        {
+          "key": "clinicalRationale",
+          "label": "Clinical rationale",
+          "type": "textarea",
+          "required": true,
+          "default": "First-line alternatives documented as ineffective in the local demo record."
+        },
+        {
+          "key": "submissionStatus",
+          "label": "Payer connection status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not configured",
+            "Needs credentials",
+            "Test ready",
+            "Blocked"
+          ],
+          "default": "Not configured"
+        }
+      ],
+      "states": [
+        "draft",
+        "evidence_review",
+        "ready",
+        "submitted",
+        "decision_received"
+      ],
+      "transitions": [
+        {
+          "id": "insurance-prior-authorization-evidence_review",
+          "label": "Move to evidence review",
+          "from": [
+            "draft"
+          ],
+          "to": "evidence_review"
+        },
+        {
+          "id": "insurance-prior-authorization-ready",
+          "label": "Move to ready",
+          "from": [
+            "evidence_review"
+          ],
+          "to": "ready"
+        },
+        {
+          "id": "insurance-prior-authorization-submitted",
+          "label": "Move to submitted",
+          "from": [
+            "ready"
+          ],
+          "to": "submitted"
+        },
+        {
+          "id": "insurance-prior-authorization-decision_received",
+          "label": "Move to decision received",
+          "from": [
+            "submitted"
+          ],
+          "to": "decision_received"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "insurance-prior-authorization-demo",
+          "state": "draft",
+          "patientReference": "PAT-DEMO-1003",
+          "medication": "Demo specialty therapy",
+          "payer": "Sandbox payer",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record.",
+          "submissionStatus": "Not configured"
+        }
+      ]
+    },
+    {
+      "id": "medication-therapy-management",
+      "title": "Medication Therapy Management",
+      "description": "Coordinate comprehensive medication review, document interventions, and schedule clinical follow-up.",
+      "fields": [
+        {
+          "key": "patientReference",
+          "label": "Patient reference",
+          "type": "text",
+          "required": true,
+          "default": "PAT-DEMO-1004"
+        },
+        {
+          "key": "reviewType",
+          "label": "Review type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Comprehensive",
+            "Targeted",
+            "Transition of care"
+          ],
+          "default": "Comprehensive"
+        },
+        {
+          "key": "clinicalGoals",
+          "label": "Clinical goals",
+          "type": "textarea",
+          "required": true,
+          "default": "Reduce duplicate therapy and improve blood-pressure adherence."
+        },
+        {
+          "key": "pharmacist",
+          "label": "Assigned pharmacist",
+          "type": "text",
+          "required": true,
+          "default": "Demo Pharmacist"
+        },
+        {
+          "key": "followUpDate",
+          "label": "Follow-up date",
+          "type": "date",
+          "required": true,
+          "default": "2026-08-03"
+        }
+      ],
+      "states": [
+        "scheduled",
+        "in_review",
+        "intervention_recorded",
+        "follow_up",
+        "completed"
+      ],
+      "transitions": [
+        {
+          "id": "medication-therapy-management-in_review",
+          "label": "Move to in review",
+          "from": [
+            "scheduled"
+          ],
+          "to": "in_review"
+        },
+        {
+          "id": "medication-therapy-management-intervention_recorded",
+          "label": "Move to intervention recorded",
+          "from": [
+            "in_review"
+          ],
+          "to": "intervention_recorded"
+        },
+        {
+          "id": "medication-therapy-management-follow_up",
+          "label": "Move to follow up",
+          "from": [
+            "intervention_recorded"
+          ],
+          "to": "follow_up"
+        },
+        {
+          "id": "medication-therapy-management-completed",
+          "label": "Move to completed",
+          "from": [
+            "follow_up"
+          ],
+          "to": "completed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "medication-therapy-management-demo",
+          "state": "scheduled",
+          "patientReference": "PAT-DEMO-1004",
+          "reviewType": "Comprehensive",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence.",
+          "pharmacist": "Demo Pharmacist",
+          "followUpDate": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "id": "pharmacy-integration-readiness",
+      "title": "Pharmacy Integration Readiness",
+      "description": "Inventory dispensing, payer, e-prescribing, and reporting adapters and verify them safely with local or sandbox fixtures.",
+      "fields": [
+        {
+          "key": "integrationType",
+          "label": "Integration type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Dispensing system",
+            "Payer/PBM",
+            "E-prescribing",
+            "Reporting"
+          ],
+          "default": "Dispensing system"
+        },
+        {
+          "key": "provider",
+          "label": "Provider or adapter",
+          "type": "text",
+          "required": true,
+          "default": "Local fixture adapter"
+        },
+        {
+          "key": "environment",
+          "label": "Environment",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Local fixture",
+            "Sandbox configuration",
+            "Production configuration"
+          ],
+          "default": "Local fixture"
+        },
+        {
+          "key": "credentialStatus",
+          "label": "Credential status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not required for fixture",
+            "Missing",
+            "Stored externally"
+          ],
+          "default": "Not required for fixture"
+        },
+        {
+          "key": "testResult",
+          "label": "Test result",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not run",
+            "Passed with fixture",
+            "Failed",
+            "Blocked"
+          ],
+          "default": "Not run"
+        }
+      ],
+      "states": [
+        "inventoried",
+        "needs_credentials",
+        "test_ready",
+        "verified"
+      ],
+      "transitions": [
+        {
+          "id": "pharmacy-integration-readiness-needs_credentials",
+          "label": "Move to needs credentials",
+          "from": [
+            "inventoried"
+          ],
+          "to": "needs_credentials"
+        },
+        {
+          "id": "pharmacy-integration-readiness-test_ready",
+          "label": "Move to test ready",
+          "from": [
+            "needs_credentials"
+          ],
+          "to": "test_ready"
+        },
+        {
+          "id": "pharmacy-integration-readiness-verified",
+          "label": "Move to verified",
+          "from": [
+            "test_ready"
+          ],
+          "to": "verified"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "pharmacy-integration-readiness-demo",
+          "state": "inventoried",
+          "integrationType": "Dispensing system",
+          "provider": "Local fixture adapter",
+          "environment": "Local fixture",
+          "credentialStatus": "Not required for fixture",
+          "testResult": "Not run"
+        }
+      ]
+    }
+  ]
+}
