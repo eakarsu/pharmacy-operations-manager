@@ -82,13 +82,139 @@
       ],
       "seeds": [
         {
-          "id": "prescription-intake-validation-demo",
+          "id": "prescription-intake-validation-001",
           "state": "received",
-          "patientReference": "PAT-DEMO-1001",
-          "medication": "Metformin 500 mg",
-          "directions": "Take one tablet twice daily with meals.",
-          "prescriberReference": "PRV-DEMO-22",
+          "patientReference": "PHARMACY-O-0001",
+          "medication": "Metformin 500 mg — North Region — North Region",
+          "directions": "Take one tablet twice daily with meals. — North Region — North Region",
+          "prescriberReference": "PHARMACY-O-0001",
           "validationResult": "Pending"
+        },
+        {
+          "id": "prescription-intake-validation-002",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0002",
+          "medication": "Metformin 500 mg — Enterprise Account — Enterprise Account",
+          "directions": "Take one tablet twice daily with meals. — Enterprise Account — Enterprise Account",
+          "prescriberReference": "PHARMACY-O-0002",
+          "validationResult": "Valid"
+        },
+        {
+          "id": "prescription-intake-validation-003",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0003",
+          "medication": "Metformin 500 mg — Quarterly Cycle — Quarterly Cycle",
+          "directions": "Take one tablet twice daily with meals. — Quarterly Cycle — Quarterly Cycle",
+          "prescriberReference": "PHARMACY-O-0003",
+          "validationResult": "Needs clarification"
+        },
+        {
+          "id": "prescription-intake-validation-004",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0004",
+          "medication": "Metformin 500 mg — Priority Queue — Priority Queue",
+          "directions": "Take one tablet twice daily with meals. — Priority Queue — Priority Queue",
+          "prescriberReference": "PHARMACY-O-0004",
+          "validationResult": "Pending"
+        },
+        {
+          "id": "prescription-intake-validation-005",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0005",
+          "medication": "Metformin 500 mg — Operations Review — Operations Review",
+          "directions": "Take one tablet twice daily with meals. — Operations Review — Operations Review",
+          "prescriberReference": "PHARMACY-O-0005",
+          "validationResult": "Valid"
+        },
+        {
+          "id": "prescription-intake-validation-006",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0006",
+          "medication": "Metformin 500 mg — Customer Request — Customer Request",
+          "directions": "Take one tablet twice daily with meals. — Customer Request — Customer Request",
+          "prescriberReference": "PHARMACY-O-0006",
+          "validationResult": "Needs clarification"
+        },
+        {
+          "id": "prescription-intake-validation-007",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0007",
+          "medication": "Metformin 500 mg — Compliance Check — Compliance Check",
+          "directions": "Take one tablet twice daily with meals. — Compliance Check — Compliance Check",
+          "prescriberReference": "PHARMACY-O-0007",
+          "validationResult": "Pending"
+        },
+        {
+          "id": "prescription-intake-validation-008",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0008",
+          "medication": "Metformin 500 mg — Service Window — Service Window",
+          "directions": "Take one tablet twice daily with meals. — Service Window — Service Window",
+          "prescriberReference": "PHARMACY-O-0008",
+          "validationResult": "Valid"
+        },
+        {
+          "id": "prescription-intake-validation-009",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0009",
+          "medication": "Metformin 500 mg — Quality Sample — Quality Sample",
+          "directions": "Take one tablet twice daily with meals. — Quality Sample — Quality Sample",
+          "prescriberReference": "PHARMACY-O-0009",
+          "validationResult": "Needs clarification"
+        },
+        {
+          "id": "prescription-intake-validation-010",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0010",
+          "medication": "Metformin 500 mg — Management Review — Management Review",
+          "directions": "Take one tablet twice daily with meals. — Management Review — Management Review",
+          "prescriberReference": "PHARMACY-O-0010",
+          "validationResult": "Pending"
+        },
+        {
+          "id": "prescription-intake-validation-011",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0011",
+          "medication": "Metformin 500 mg — Exception Follow-up — Exception Follow-up",
+          "directions": "Take one tablet twice daily with meals. — Exception Follow-up — Exception Follow-up",
+          "prescriberReference": "PHARMACY-O-0011",
+          "validationResult": "Valid"
+        },
+        {
+          "id": "prescription-intake-validation-012",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0012",
+          "medication": "Metformin 500 mg — Evidence Package — Evidence Package",
+          "directions": "Take one tablet twice daily with meals. — Evidence Package — Evidence Package",
+          "prescriberReference": "PHARMACY-O-0012",
+          "validationResult": "Needs clarification"
+        },
+        {
+          "id": "prescription-intake-validation-013",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0013",
+          "medication": "Metformin 500 mg — Planning Cycle — Planning Cycle",
+          "directions": "Take one tablet twice daily with meals. — Planning Cycle — Planning Cycle",
+          "prescriberReference": "PHARMACY-O-0013",
+          "validationResult": "Pending"
+        },
+        {
+          "id": "prescription-intake-validation-014",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0014",
+          "medication": "Metformin 500 mg — Performance Review — Performance Review",
+          "directions": "Take one tablet twice daily with meals. — Performance Review — Performance Review",
+          "prescriberReference": "PHARMACY-O-0014",
+          "validationResult": "Valid"
+        },
+        {
+          "id": "prescription-intake-validation-015",
+          "state": "received",
+          "patientReference": "PHARMACY-O-0015",
+          "medication": "Metformin 500 mg — Final Verification — Final Verification",
+          "directions": "Take one tablet twice daily with meals. — Final Verification — Final Verification",
+          "prescriberReference": "PHARMACY-O-0015",
+          "validationResult": "Needs clarification"
         }
       ]
     },
@@ -173,13 +299,139 @@
       ],
       "seeds": [
         {
-          "id": "clinical-interaction-review-demo",
+          "id": "clinical-interaction-review-001",
           "state": "queued",
-          "patientReference": "PAT-DEMO-1001",
-          "medications": "Metformin; lisinopril; simvastatin",
-          "allergies": "Penicillin",
+          "patientReference": "PHARMACY-O-0001",
+          "medications": "Metformin; lisinopril; simvastatin — North Region — North Region",
+          "allergies": "Penicillin — North Region — North Region",
+          "riskLevel": "None",
+          "pharmacist": "Demo Pharmacist — North Region — North Region"
+        },
+        {
+          "id": "clinical-interaction-review-002",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0002",
+          "medications": "Metformin; lisinopril; simvastatin — Enterprise Account — Enterprise Account",
+          "allergies": "Penicillin — Enterprise Account — Enterprise Account",
+          "riskLevel": "Low",
+          "pharmacist": "Demo Pharmacist — Enterprise Account — Enterprise Account"
+        },
+        {
+          "id": "clinical-interaction-review-003",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0003",
+          "medications": "Metformin; lisinopril; simvastatin — Quarterly Cycle — Quarterly Cycle",
+          "allergies": "Penicillin — Quarterly Cycle — Quarterly Cycle",
           "riskLevel": "Moderate",
-          "pharmacist": "Demo Pharmacist"
+          "pharmacist": "Demo Pharmacist — Quarterly Cycle — Quarterly Cycle"
+        },
+        {
+          "id": "clinical-interaction-review-004",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0004",
+          "medications": "Metformin; lisinopril; simvastatin — Priority Queue — Priority Queue",
+          "allergies": "Penicillin — Priority Queue — Priority Queue",
+          "riskLevel": "High",
+          "pharmacist": "Demo Pharmacist — Priority Queue — Priority Queue"
+        },
+        {
+          "id": "clinical-interaction-review-005",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0005",
+          "medications": "Metformin; lisinopril; simvastatin — Operations Review — Operations Review",
+          "allergies": "Penicillin — Operations Review — Operations Review",
+          "riskLevel": "None",
+          "pharmacist": "Demo Pharmacist — Operations Review — Operations Review"
+        },
+        {
+          "id": "clinical-interaction-review-006",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0006",
+          "medications": "Metformin; lisinopril; simvastatin — Customer Request — Customer Request",
+          "allergies": "Penicillin — Customer Request — Customer Request",
+          "riskLevel": "Low",
+          "pharmacist": "Demo Pharmacist — Customer Request — Customer Request"
+        },
+        {
+          "id": "clinical-interaction-review-007",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0007",
+          "medications": "Metformin; lisinopril; simvastatin — Compliance Check — Compliance Check",
+          "allergies": "Penicillin — Compliance Check — Compliance Check",
+          "riskLevel": "Moderate",
+          "pharmacist": "Demo Pharmacist — Compliance Check — Compliance Check"
+        },
+        {
+          "id": "clinical-interaction-review-008",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0008",
+          "medications": "Metformin; lisinopril; simvastatin — Service Window — Service Window",
+          "allergies": "Penicillin — Service Window — Service Window",
+          "riskLevel": "High",
+          "pharmacist": "Demo Pharmacist — Service Window — Service Window"
+        },
+        {
+          "id": "clinical-interaction-review-009",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0009",
+          "medications": "Metformin; lisinopril; simvastatin — Quality Sample — Quality Sample",
+          "allergies": "Penicillin — Quality Sample — Quality Sample",
+          "riskLevel": "None",
+          "pharmacist": "Demo Pharmacist — Quality Sample — Quality Sample"
+        },
+        {
+          "id": "clinical-interaction-review-010",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0010",
+          "medications": "Metformin; lisinopril; simvastatin — Management Review — Management Review",
+          "allergies": "Penicillin — Management Review — Management Review",
+          "riskLevel": "Low",
+          "pharmacist": "Demo Pharmacist — Management Review — Management Review"
+        },
+        {
+          "id": "clinical-interaction-review-011",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0011",
+          "medications": "Metformin; lisinopril; simvastatin — Exception Follow-up — Exception Follow-up",
+          "allergies": "Penicillin — Exception Follow-up — Exception Follow-up",
+          "riskLevel": "Moderate",
+          "pharmacist": "Demo Pharmacist — Exception Follow-up — Exception Follow-up"
+        },
+        {
+          "id": "clinical-interaction-review-012",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0012",
+          "medications": "Metformin; lisinopril; simvastatin — Evidence Package — Evidence Package",
+          "allergies": "Penicillin — Evidence Package — Evidence Package",
+          "riskLevel": "High",
+          "pharmacist": "Demo Pharmacist — Evidence Package — Evidence Package"
+        },
+        {
+          "id": "clinical-interaction-review-013",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0013",
+          "medications": "Metformin; lisinopril; simvastatin — Planning Cycle — Planning Cycle",
+          "allergies": "Penicillin — Planning Cycle — Planning Cycle",
+          "riskLevel": "None",
+          "pharmacist": "Demo Pharmacist — Planning Cycle — Planning Cycle"
+        },
+        {
+          "id": "clinical-interaction-review-014",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0014",
+          "medications": "Metformin; lisinopril; simvastatin — Performance Review — Performance Review",
+          "allergies": "Penicillin — Performance Review — Performance Review",
+          "riskLevel": "Low",
+          "pharmacist": "Demo Pharmacist — Performance Review — Performance Review"
+        },
+        {
+          "id": "clinical-interaction-review-015",
+          "state": "queued",
+          "patientReference": "PHARMACY-O-0015",
+          "medications": "Metformin; lisinopril; simvastatin — Final Verification — Final Verification",
+          "allergies": "Penicillin — Final Verification — Final Verification",
+          "riskLevel": "Moderate",
+          "pharmacist": "Demo Pharmacist — Final Verification — Final Verification"
         }
       ]
     },
@@ -258,13 +510,139 @@
       ],
       "seeds": [
         {
-          "id": "inventory-reorder-planning-demo",
+          "id": "inventory-reorder-planning-001",
           "state": "forecasted",
-          "ndcOrSku": "00000-DEMO-01",
-          "medication": "Metformin 500 mg",
-          "onHand": 420,
-          "forecastDemand": 650,
-          "leadTimeDays": 7
+          "ndcOrSku": "00000-DEMO-01 — North Region — North Region",
+          "medication": "Metformin 500 mg — North Region — North Region",
+          "onHand": 420.0,
+          "forecastDemand": 650.0,
+          "leadTimeDays": 7.0
+        },
+        {
+          "id": "inventory-reorder-planning-002",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Enterprise Account — Enterprise Account",
+          "medication": "Metformin 500 mg — Enterprise Account — Enterprise Account",
+          "onHand": 422.0,
+          "forecastDemand": 652.0,
+          "leadTimeDays": 9.0
+        },
+        {
+          "id": "inventory-reorder-planning-003",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Quarterly Cycle — Quarterly Cycle",
+          "medication": "Metformin 500 mg — Quarterly Cycle — Quarterly Cycle",
+          "onHand": 424.0,
+          "forecastDemand": 654.0,
+          "leadTimeDays": 11.0
+        },
+        {
+          "id": "inventory-reorder-planning-004",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Priority Queue — Priority Queue",
+          "medication": "Metformin 500 mg — Priority Queue — Priority Queue",
+          "onHand": 426.0,
+          "forecastDemand": 656.0,
+          "leadTimeDays": 13.0
+        },
+        {
+          "id": "inventory-reorder-planning-005",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Operations Review — Operations Review",
+          "medication": "Metformin 500 mg — Operations Review — Operations Review",
+          "onHand": 428.0,
+          "forecastDemand": 658.0,
+          "leadTimeDays": 15.0
+        },
+        {
+          "id": "inventory-reorder-planning-006",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Customer Request — Customer Request",
+          "medication": "Metformin 500 mg — Customer Request — Customer Request",
+          "onHand": 430.0,
+          "forecastDemand": 660.0,
+          "leadTimeDays": 17.0
+        },
+        {
+          "id": "inventory-reorder-planning-007",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Compliance Check — Compliance Check",
+          "medication": "Metformin 500 mg — Compliance Check — Compliance Check",
+          "onHand": 432.0,
+          "forecastDemand": 662.0,
+          "leadTimeDays": 19.0
+        },
+        {
+          "id": "inventory-reorder-planning-008",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Service Window — Service Window",
+          "medication": "Metformin 500 mg — Service Window — Service Window",
+          "onHand": 434.0,
+          "forecastDemand": 664.0,
+          "leadTimeDays": 21.0
+        },
+        {
+          "id": "inventory-reorder-planning-009",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Quality Sample — Quality Sample",
+          "medication": "Metformin 500 mg — Quality Sample — Quality Sample",
+          "onHand": 436.0,
+          "forecastDemand": 666.0,
+          "leadTimeDays": 23.0
+        },
+        {
+          "id": "inventory-reorder-planning-010",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Management Review — Management Review",
+          "medication": "Metformin 500 mg — Management Review — Management Review",
+          "onHand": 438.0,
+          "forecastDemand": 668.0,
+          "leadTimeDays": 25.0
+        },
+        {
+          "id": "inventory-reorder-planning-011",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Exception Follow-up — Exception Follow-up",
+          "medication": "Metformin 500 mg — Exception Follow-up — Exception Follow-up",
+          "onHand": 440.0,
+          "forecastDemand": 670.0,
+          "leadTimeDays": 27.0
+        },
+        {
+          "id": "inventory-reorder-planning-012",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Evidence Package — Evidence Package",
+          "medication": "Metformin 500 mg — Evidence Package — Evidence Package",
+          "onHand": 442.0,
+          "forecastDemand": 672.0,
+          "leadTimeDays": 29.0
+        },
+        {
+          "id": "inventory-reorder-planning-013",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Planning Cycle — Planning Cycle",
+          "medication": "Metformin 500 mg — Planning Cycle — Planning Cycle",
+          "onHand": 444.0,
+          "forecastDemand": 674.0,
+          "leadTimeDays": 31.0
+        },
+        {
+          "id": "inventory-reorder-planning-014",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Performance Review — Performance Review",
+          "medication": "Metformin 500 mg — Performance Review — Performance Review",
+          "onHand": 446.0,
+          "forecastDemand": 676.0,
+          "leadTimeDays": 33.0
+        },
+        {
+          "id": "inventory-reorder-planning-015",
+          "state": "forecasted",
+          "ndcOrSku": "00000-DEMO-01 — Final Verification — Final Verification",
+          "medication": "Metformin 500 mg — Final Verification — Final Verification",
+          "onHand": 448.0,
+          "forecastDemand": 678.0,
+          "leadTimeDays": 35.0
         }
       ]
     },
@@ -349,13 +727,139 @@
       ],
       "seeds": [
         {
-          "id": "diversion-risk-review-demo",
+          "id": "diversion-risk-review-001",
           "state": "flagged",
-          "eventReference": "DIV-DEMO-044",
+          "eventReference": "PHARMACY-O-0001",
           "substanceClass": "Schedule II",
-          "signal": "Early refill frequency exceeds the local review threshold.",
-          "riskScore": 78,
-          "reviewOwner": "Compliance Pharmacist"
+          "signal": "Early refill frequency exceeds the local review threshold. — North Region — North Region",
+          "riskScore": 78.0,
+          "reviewOwner": "Avery Morgan"
+        },
+        {
+          "id": "diversion-risk-review-002",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0002",
+          "substanceClass": "Schedule III",
+          "signal": "Early refill frequency exceeds the local review threshold. — Enterprise Account — Enterprise Account",
+          "riskScore": 80.0,
+          "reviewOwner": "Jordan Lee"
+        },
+        {
+          "id": "diversion-risk-review-003",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0003",
+          "substanceClass": "Schedule IV",
+          "signal": "Early refill frequency exceeds the local review threshold. — Quarterly Cycle — Quarterly Cycle",
+          "riskScore": 82.0,
+          "reviewOwner": "Taylor Brooks"
+        },
+        {
+          "id": "diversion-risk-review-004",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0004",
+          "substanceClass": "Schedule V",
+          "signal": "Early refill frequency exceeds the local review threshold. — Priority Queue — Priority Queue",
+          "riskScore": 84.0,
+          "reviewOwner": "Morgan Chen"
+        },
+        {
+          "id": "diversion-risk-review-005",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0005",
+          "substanceClass": "Schedule II",
+          "signal": "Early refill frequency exceeds the local review threshold. — Operations Review — Operations Review",
+          "riskScore": 86.0,
+          "reviewOwner": "Riley Patel"
+        },
+        {
+          "id": "diversion-risk-review-006",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0006",
+          "substanceClass": "Schedule III",
+          "signal": "Early refill frequency exceeds the local review threshold. — Customer Request — Customer Request",
+          "riskScore": 88.0,
+          "reviewOwner": "Casey Nguyen"
+        },
+        {
+          "id": "diversion-risk-review-007",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0007",
+          "substanceClass": "Schedule IV",
+          "signal": "Early refill frequency exceeds the local review threshold. — Compliance Check — Compliance Check",
+          "riskScore": 90.0,
+          "reviewOwner": "Cameron Diaz"
+        },
+        {
+          "id": "diversion-risk-review-008",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0008",
+          "substanceClass": "Schedule V",
+          "signal": "Early refill frequency exceeds the local review threshold. — Service Window — Service Window",
+          "riskScore": 92.0,
+          "reviewOwner": "Drew Wilson"
+        },
+        {
+          "id": "diversion-risk-review-009",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0009",
+          "substanceClass": "Schedule II",
+          "signal": "Early refill frequency exceeds the local review threshold. — Quality Sample — Quality Sample",
+          "riskScore": 94.0,
+          "reviewOwner": "Emerson Clark"
+        },
+        {
+          "id": "diversion-risk-review-010",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0010",
+          "substanceClass": "Schedule III",
+          "signal": "Early refill frequency exceeds the local review threshold. — Management Review — Management Review",
+          "riskScore": 96.0,
+          "reviewOwner": "Hayden Kim"
+        },
+        {
+          "id": "diversion-risk-review-011",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0011",
+          "substanceClass": "Schedule IV",
+          "signal": "Early refill frequency exceeds the local review threshold. — Exception Follow-up — Exception Follow-up",
+          "riskScore": 98.0,
+          "reviewOwner": "Jamie Rivera"
+        },
+        {
+          "id": "diversion-risk-review-012",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0012",
+          "substanceClass": "Schedule V",
+          "signal": "Early refill frequency exceeds the local review threshold. — Evidence Package — Evidence Package",
+          "riskScore": 100.0,
+          "reviewOwner": "Kai Thompson"
+        },
+        {
+          "id": "diversion-risk-review-013",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0013",
+          "substanceClass": "Schedule II",
+          "signal": "Early refill frequency exceeds the local review threshold. — Planning Cycle — Planning Cycle",
+          "riskScore": 102.0,
+          "reviewOwner": "Logan Shah"
+        },
+        {
+          "id": "diversion-risk-review-014",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0014",
+          "substanceClass": "Schedule III",
+          "signal": "Early refill frequency exceeds the local review threshold. — Performance Review — Performance Review",
+          "riskScore": 104.0,
+          "reviewOwner": "Parker Evans"
+        },
+        {
+          "id": "diversion-risk-review-015",
+          "state": "flagged",
+          "eventReference": "PHARMACY-O-0015",
+          "substanceClass": "Schedule IV",
+          "signal": "Early refill frequency exceeds the local review threshold. — Final Verification — Final Verification",
+          "riskScore": 106.0,
+          "reviewOwner": "Quinn Murphy"
         }
       ]
     },
@@ -454,13 +958,139 @@
       ],
       "seeds": [
         {
-          "id": "adherence-intervention-demo",
+          "id": "adherence-intervention-001",
           "state": "identified",
-          "patientReference": "PAT-DEMO-1002",
-          "medication": "Atorvastatin 20 mg",
-          "gapDays": 12,
+          "patientReference": "PHARMACY-O-0001",
+          "medication": "Atorvastatin 20 mg — North Region — North Region",
+          "gapDays": 12.0,
           "preferredChannel": "Phone",
           "consentStatus": "Needs verification"
+        },
+        {
+          "id": "adherence-intervention-002",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0002",
+          "medication": "Atorvastatin 20 mg — Enterprise Account — Enterprise Account",
+          "gapDays": 14.0,
+          "preferredChannel": "SMS",
+          "consentStatus": "Confirmed"
+        },
+        {
+          "id": "adherence-intervention-003",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0003",
+          "medication": "Atorvastatin 20 mg — Quarterly Cycle — Quarterly Cycle",
+          "gapDays": 16.0,
+          "preferredChannel": "Email",
+          "consentStatus": "Declined"
+        },
+        {
+          "id": "adherence-intervention-004",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0004",
+          "medication": "Atorvastatin 20 mg — Priority Queue — Priority Queue",
+          "gapDays": 18.0,
+          "preferredChannel": "In person",
+          "consentStatus": "Needs verification"
+        },
+        {
+          "id": "adherence-intervention-005",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0005",
+          "medication": "Atorvastatin 20 mg — Operations Review — Operations Review",
+          "gapDays": 20.0,
+          "preferredChannel": "Phone",
+          "consentStatus": "Confirmed"
+        },
+        {
+          "id": "adherence-intervention-006",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0006",
+          "medication": "Atorvastatin 20 mg — Customer Request — Customer Request",
+          "gapDays": 22.0,
+          "preferredChannel": "SMS",
+          "consentStatus": "Declined"
+        },
+        {
+          "id": "adherence-intervention-007",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0007",
+          "medication": "Atorvastatin 20 mg — Compliance Check — Compliance Check",
+          "gapDays": 24.0,
+          "preferredChannel": "Email",
+          "consentStatus": "Needs verification"
+        },
+        {
+          "id": "adherence-intervention-008",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0008",
+          "medication": "Atorvastatin 20 mg — Service Window — Service Window",
+          "gapDays": 26.0,
+          "preferredChannel": "In person",
+          "consentStatus": "Confirmed"
+        },
+        {
+          "id": "adherence-intervention-009",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0009",
+          "medication": "Atorvastatin 20 mg — Quality Sample — Quality Sample",
+          "gapDays": 28.0,
+          "preferredChannel": "Phone",
+          "consentStatus": "Declined"
+        },
+        {
+          "id": "adherence-intervention-010",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0010",
+          "medication": "Atorvastatin 20 mg — Management Review — Management Review",
+          "gapDays": 30.0,
+          "preferredChannel": "SMS",
+          "consentStatus": "Needs verification"
+        },
+        {
+          "id": "adherence-intervention-011",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0011",
+          "medication": "Atorvastatin 20 mg — Exception Follow-up — Exception Follow-up",
+          "gapDays": 32.0,
+          "preferredChannel": "Email",
+          "consentStatus": "Confirmed"
+        },
+        {
+          "id": "adherence-intervention-012",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0012",
+          "medication": "Atorvastatin 20 mg — Evidence Package — Evidence Package",
+          "gapDays": 34.0,
+          "preferredChannel": "In person",
+          "consentStatus": "Declined"
+        },
+        {
+          "id": "adherence-intervention-013",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0013",
+          "medication": "Atorvastatin 20 mg — Planning Cycle — Planning Cycle",
+          "gapDays": 36.0,
+          "preferredChannel": "Phone",
+          "consentStatus": "Needs verification"
+        },
+        {
+          "id": "adherence-intervention-014",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0014",
+          "medication": "Atorvastatin 20 mg — Performance Review — Performance Review",
+          "gapDays": 38.0,
+          "preferredChannel": "SMS",
+          "consentStatus": "Confirmed"
+        },
+        {
+          "id": "adherence-intervention-015",
+          "state": "identified",
+          "patientReference": "PHARMACY-O-0015",
+          "medication": "Atorvastatin 20 mg — Final Verification — Final Verification",
+          "gapDays": 40.0,
+          "preferredChannel": "Email",
+          "consentStatus": "Declined"
         }
       ]
     },
@@ -554,13 +1184,139 @@
       ],
       "seeds": [
         {
-          "id": "insurance-prior-authorization-demo",
+          "id": "insurance-prior-authorization-001",
           "state": "draft",
-          "patientReference": "PAT-DEMO-1003",
-          "medication": "Demo specialty therapy",
-          "payer": "Sandbox payer",
-          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record.",
+          "patientReference": "PHARMACY-O-0001",
+          "medication": "Demo specialty therapy — North Region — North Region",
+          "payer": "Sandbox payer — North Region — North Region",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — North Region — North Region",
           "submissionStatus": "Not configured"
+        },
+        {
+          "id": "insurance-prior-authorization-002",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0002",
+          "medication": "Demo specialty therapy — Enterprise Account — Enterprise Account",
+          "payer": "Sandbox payer — Enterprise Account — Enterprise Account",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Enterprise Account — Enterprise Account",
+          "submissionStatus": "Needs credentials"
+        },
+        {
+          "id": "insurance-prior-authorization-003",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0003",
+          "medication": "Demo specialty therapy — Quarterly Cycle — Quarterly Cycle",
+          "payer": "Sandbox payer — Quarterly Cycle — Quarterly Cycle",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Quarterly Cycle — Quarterly Cycle",
+          "submissionStatus": "Test ready"
+        },
+        {
+          "id": "insurance-prior-authorization-004",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0004",
+          "medication": "Demo specialty therapy — Priority Queue — Priority Queue",
+          "payer": "Sandbox payer — Priority Queue — Priority Queue",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Priority Queue — Priority Queue",
+          "submissionStatus": "Blocked"
+        },
+        {
+          "id": "insurance-prior-authorization-005",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0005",
+          "medication": "Demo specialty therapy — Operations Review — Operations Review",
+          "payer": "Sandbox payer — Operations Review — Operations Review",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Operations Review — Operations Review",
+          "submissionStatus": "Not configured"
+        },
+        {
+          "id": "insurance-prior-authorization-006",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0006",
+          "medication": "Demo specialty therapy — Customer Request — Customer Request",
+          "payer": "Sandbox payer — Customer Request — Customer Request",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Customer Request — Customer Request",
+          "submissionStatus": "Needs credentials"
+        },
+        {
+          "id": "insurance-prior-authorization-007",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0007",
+          "medication": "Demo specialty therapy — Compliance Check — Compliance Check",
+          "payer": "Sandbox payer — Compliance Check — Compliance Check",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Compliance Check — Compliance Check",
+          "submissionStatus": "Test ready"
+        },
+        {
+          "id": "insurance-prior-authorization-008",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0008",
+          "medication": "Demo specialty therapy — Service Window — Service Window",
+          "payer": "Sandbox payer — Service Window — Service Window",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Service Window — Service Window",
+          "submissionStatus": "Blocked"
+        },
+        {
+          "id": "insurance-prior-authorization-009",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0009",
+          "medication": "Demo specialty therapy — Quality Sample — Quality Sample",
+          "payer": "Sandbox payer — Quality Sample — Quality Sample",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Quality Sample — Quality Sample",
+          "submissionStatus": "Not configured"
+        },
+        {
+          "id": "insurance-prior-authorization-010",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0010",
+          "medication": "Demo specialty therapy — Management Review — Management Review",
+          "payer": "Sandbox payer — Management Review — Management Review",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Management Review — Management Review",
+          "submissionStatus": "Needs credentials"
+        },
+        {
+          "id": "insurance-prior-authorization-011",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0011",
+          "medication": "Demo specialty therapy — Exception Follow-up — Exception Follow-up",
+          "payer": "Sandbox payer — Exception Follow-up — Exception Follow-up",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Exception Follow-up — Exception Follow-up",
+          "submissionStatus": "Test ready"
+        },
+        {
+          "id": "insurance-prior-authorization-012",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0012",
+          "medication": "Demo specialty therapy — Evidence Package — Evidence Package",
+          "payer": "Sandbox payer — Evidence Package — Evidence Package",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Evidence Package — Evidence Package",
+          "submissionStatus": "Blocked"
+        },
+        {
+          "id": "insurance-prior-authorization-013",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0013",
+          "medication": "Demo specialty therapy — Planning Cycle — Planning Cycle",
+          "payer": "Sandbox payer — Planning Cycle — Planning Cycle",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Planning Cycle — Planning Cycle",
+          "submissionStatus": "Not configured"
+        },
+        {
+          "id": "insurance-prior-authorization-014",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0014",
+          "medication": "Demo specialty therapy — Performance Review — Performance Review",
+          "payer": "Sandbox payer — Performance Review — Performance Review",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Performance Review — Performance Review",
+          "submissionStatus": "Needs credentials"
+        },
+        {
+          "id": "insurance-prior-authorization-015",
+          "state": "draft",
+          "patientReference": "PHARMACY-O-0015",
+          "medication": "Demo specialty therapy — Final Verification — Final Verification",
+          "payer": "Sandbox payer — Final Verification — Final Verification",
+          "clinicalRationale": "First-line alternatives documented as ineffective in the local demo record. — Final Verification — Final Verification",
+          "submissionStatus": "Test ready"
         }
       ]
     },
@@ -653,13 +1409,139 @@
       ],
       "seeds": [
         {
-          "id": "medication-therapy-management-demo",
+          "id": "medication-therapy-management-001",
           "state": "scheduled",
-          "patientReference": "PAT-DEMO-1004",
+          "patientReference": "PHARMACY-O-0001",
           "reviewType": "Comprehensive",
-          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence.",
-          "pharmacist": "Demo Pharmacist",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — North Region — North Region",
+          "pharmacist": "Demo Pharmacist — North Region — North Region",
           "followUpDate": "2026-08-03"
+        },
+        {
+          "id": "medication-therapy-management-002",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0002",
+          "reviewType": "Targeted",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Enterprise Account — Enterprise Account",
+          "pharmacist": "Demo Pharmacist — Enterprise Account — Enterprise Account",
+          "followUpDate": "2026-08-05"
+        },
+        {
+          "id": "medication-therapy-management-003",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0003",
+          "reviewType": "Transition of care",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Quarterly Cycle — Quarterly Cycle",
+          "pharmacist": "Demo Pharmacist — Quarterly Cycle — Quarterly Cycle",
+          "followUpDate": "2026-08-07"
+        },
+        {
+          "id": "medication-therapy-management-004",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0004",
+          "reviewType": "Comprehensive",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Priority Queue — Priority Queue",
+          "pharmacist": "Demo Pharmacist — Priority Queue — Priority Queue",
+          "followUpDate": "2026-08-09"
+        },
+        {
+          "id": "medication-therapy-management-005",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0005",
+          "reviewType": "Targeted",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Operations Review — Operations Review",
+          "pharmacist": "Demo Pharmacist — Operations Review — Operations Review",
+          "followUpDate": "2026-08-11"
+        },
+        {
+          "id": "medication-therapy-management-006",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0006",
+          "reviewType": "Transition of care",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Customer Request — Customer Request",
+          "pharmacist": "Demo Pharmacist — Customer Request — Customer Request",
+          "followUpDate": "2026-08-13"
+        },
+        {
+          "id": "medication-therapy-management-007",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0007",
+          "reviewType": "Comprehensive",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Compliance Check — Compliance Check",
+          "pharmacist": "Demo Pharmacist — Compliance Check — Compliance Check",
+          "followUpDate": "2026-08-15"
+        },
+        {
+          "id": "medication-therapy-management-008",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0008",
+          "reviewType": "Targeted",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Service Window — Service Window",
+          "pharmacist": "Demo Pharmacist — Service Window — Service Window",
+          "followUpDate": "2026-08-17"
+        },
+        {
+          "id": "medication-therapy-management-009",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0009",
+          "reviewType": "Transition of care",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Quality Sample — Quality Sample",
+          "pharmacist": "Demo Pharmacist — Quality Sample — Quality Sample",
+          "followUpDate": "2026-08-19"
+        },
+        {
+          "id": "medication-therapy-management-010",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0010",
+          "reviewType": "Comprehensive",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Management Review — Management Review",
+          "pharmacist": "Demo Pharmacist — Management Review — Management Review",
+          "followUpDate": "2026-08-21"
+        },
+        {
+          "id": "medication-therapy-management-011",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0011",
+          "reviewType": "Targeted",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Exception Follow-up — Exception Follow-up",
+          "pharmacist": "Demo Pharmacist — Exception Follow-up — Exception Follow-up",
+          "followUpDate": "2026-08-23"
+        },
+        {
+          "id": "medication-therapy-management-012",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0012",
+          "reviewType": "Transition of care",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Evidence Package — Evidence Package",
+          "pharmacist": "Demo Pharmacist — Evidence Package — Evidence Package",
+          "followUpDate": "2026-08-25"
+        },
+        {
+          "id": "medication-therapy-management-013",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0013",
+          "reviewType": "Comprehensive",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Planning Cycle — Planning Cycle",
+          "pharmacist": "Demo Pharmacist — Planning Cycle — Planning Cycle",
+          "followUpDate": "2026-08-27"
+        },
+        {
+          "id": "medication-therapy-management-014",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0014",
+          "reviewType": "Targeted",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Performance Review — Performance Review",
+          "pharmacist": "Demo Pharmacist — Performance Review — Performance Review",
+          "followUpDate": "2026-08-29"
+        },
+        {
+          "id": "medication-therapy-management-015",
+          "state": "scheduled",
+          "patientReference": "PHARMACY-O-0015",
+          "reviewType": "Transition of care",
+          "clinicalGoals": "Reduce duplicate therapy and improve blood-pressure adherence. — Final Verification — Final Verification",
+          "pharmacist": "Demo Pharmacist — Final Verification — Final Verification",
+          "followUpDate": "2026-08-31"
         }
       ]
     },
@@ -760,13 +1642,139 @@
       ],
       "seeds": [
         {
-          "id": "pharmacy-integration-readiness-demo",
+          "id": "pharmacy-integration-readiness-001",
           "state": "inventoried",
           "integrationType": "Dispensing system",
-          "provider": "Local fixture adapter",
+          "provider": "Local fixture adapter — North Region — North Region",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Not run"
+        },
+        {
+          "id": "pharmacy-integration-readiness-002",
+          "state": "inventoried",
+          "integrationType": "Payer/PBM",
+          "provider": "Local fixture adapter — Enterprise Account — Enterprise Account",
+          "environment": "Sandbox configuration",
+          "credentialStatus": "Missing",
+          "testResult": "Passed with fixture"
+        },
+        {
+          "id": "pharmacy-integration-readiness-003",
+          "state": "inventoried",
+          "integrationType": "E-prescribing",
+          "provider": "Local fixture adapter — Quarterly Cycle — Quarterly Cycle",
+          "environment": "Production configuration",
+          "credentialStatus": "Stored externally",
+          "testResult": "Failed"
+        },
+        {
+          "id": "pharmacy-integration-readiness-004",
+          "state": "inventoried",
+          "integrationType": "Reporting",
+          "provider": "Local fixture adapter — Priority Queue — Priority Queue",
+          "environment": "Local fixture",
+          "credentialStatus": "Not required for fixture",
+          "testResult": "Blocked"
+        },
+        {
+          "id": "pharmacy-integration-readiness-005",
+          "state": "inventoried",
+          "integrationType": "Dispensing system",
+          "provider": "Local fixture adapter — Operations Review — Operations Review",
+          "environment": "Sandbox configuration",
+          "credentialStatus": "Missing",
+          "testResult": "Not run"
+        },
+        {
+          "id": "pharmacy-integration-readiness-006",
+          "state": "inventoried",
+          "integrationType": "Payer/PBM",
+          "provider": "Local fixture adapter — Customer Request — Customer Request",
+          "environment": "Production configuration",
+          "credentialStatus": "Stored externally",
+          "testResult": "Passed with fixture"
+        },
+        {
+          "id": "pharmacy-integration-readiness-007",
+          "state": "inventoried",
+          "integrationType": "E-prescribing",
+          "provider": "Local fixture adapter — Compliance Check — Compliance Check",
+          "environment": "Local fixture",
+          "credentialStatus": "Not required for fixture",
+          "testResult": "Failed"
+        },
+        {
+          "id": "pharmacy-integration-readiness-008",
+          "state": "inventoried",
+          "integrationType": "Reporting",
+          "provider": "Local fixture adapter — Service Window — Service Window",
+          "environment": "Sandbox configuration",
+          "credentialStatus": "Missing",
+          "testResult": "Blocked"
+        },
+        {
+          "id": "pharmacy-integration-readiness-009",
+          "state": "inventoried",
+          "integrationType": "Dispensing system",
+          "provider": "Local fixture adapter — Quality Sample — Quality Sample",
+          "environment": "Production configuration",
+          "credentialStatus": "Stored externally",
+          "testResult": "Not run"
+        },
+        {
+          "id": "pharmacy-integration-readiness-010",
+          "state": "inventoried",
+          "integrationType": "Payer/PBM",
+          "provider": "Local fixture adapter — Management Review — Management Review",
+          "environment": "Local fixture",
+          "credentialStatus": "Not required for fixture",
+          "testResult": "Passed with fixture"
+        },
+        {
+          "id": "pharmacy-integration-readiness-011",
+          "state": "inventoried",
+          "integrationType": "E-prescribing",
+          "provider": "Local fixture adapter — Exception Follow-up — Exception Follow-up",
+          "environment": "Sandbox configuration",
+          "credentialStatus": "Missing",
+          "testResult": "Failed"
+        },
+        {
+          "id": "pharmacy-integration-readiness-012",
+          "state": "inventoried",
+          "integrationType": "Reporting",
+          "provider": "Local fixture adapter — Evidence Package — Evidence Package",
+          "environment": "Production configuration",
+          "credentialStatus": "Stored externally",
+          "testResult": "Blocked"
+        },
+        {
+          "id": "pharmacy-integration-readiness-013",
+          "state": "inventoried",
+          "integrationType": "Dispensing system",
+          "provider": "Local fixture adapter — Planning Cycle — Planning Cycle",
+          "environment": "Local fixture",
+          "credentialStatus": "Not required for fixture",
+          "testResult": "Not run"
+        },
+        {
+          "id": "pharmacy-integration-readiness-014",
+          "state": "inventoried",
+          "integrationType": "Payer/PBM",
+          "provider": "Local fixture adapter — Performance Review — Performance Review",
+          "environment": "Sandbox configuration",
+          "credentialStatus": "Missing",
+          "testResult": "Passed with fixture"
+        },
+        {
+          "id": "pharmacy-integration-readiness-015",
+          "state": "inventoried",
+          "integrationType": "E-prescribing",
+          "provider": "Local fixture adapter — Final Verification — Final Verification",
+          "environment": "Production configuration",
+          "credentialStatus": "Stored externally",
+          "testResult": "Failed"
         }
       ]
     }
