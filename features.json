@@ -1,5 +1,55 @@
 [
   {
+    "name": "1",
+    "canonicalKey": "1",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/drug-reviews",
+      "/interactions",
+      "/prescriptions",
+      "/reports"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/DrugReviews.js:1",
+        "route": "/drug-reviews",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Interactions.js:1",
+        "route": "/interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Prescriptions.js:1",
+        "route": "/prescriptions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Reports.js:1",
+        "route": "/reports",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
     "name": "Adherence Predict",
     "canonicalKey": "adherence predict",
     "aliases": [
@@ -267,27 +317,6 @@
       {
         "kind": "page",
         "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/App.js:147",
-        "route": "/adverse-events",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/App.js:43",
-        "route": "/adverse-events",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
-        "path": "frontend/src/pages/Dashboard.js:40",
-        "route": "/adverse-events",
-        "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClinicalTrialMatching",
         "path": "frontend/src/pages/AdverseEventsPage.js",
         "route": "/AdverseEventsPage",
         "originApp": "healthcare-life-sciences/alzheimers-research-care-operations-hub-merged"
@@ -299,10 +328,12 @@
     "canonicalKey": "adherence ai",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
-      "/:id/ai-adherence"
+      "/:id/ai-adherence",
+      "/patients?tool=ai-adherence"
     ],
     "sourceProjects": [
       "AIPharmacyOperationsManager"
@@ -312,10 +343,43 @@
     ],
     "evidence": [
       {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Patients.js:1",
+        "route": "/patients?tool=ai-adherence",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
         "kind": "api",
         "sourceProject": "AIPharmacyOperationsManager",
         "path": "backend/routes/patients.js:208",
         "route": "/:id/ai-adherence",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Adherence Prediction",
+    "canonicalKey": "adherence ai prediction",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/adherence-predict"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/AdherencePredict.js:1",
+        "route": "/adherence-predict",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       }
     ]
@@ -347,14 +411,14 @@
     ]
   },
   {
-    "name": "AI Counseling Notes",
-    "canonicalKey": "ai counseling note",
+    "name": "AI Claim Denial Prediction",
+    "canonicalKey": "ai claim denial prediction",
     "aliases": [],
     "kinds": [
-      "api"
+      "ai-page"
     ],
     "routes": [
-      "/:id/ai-counseling-notes"
+      "/claim-denial-predict"
     ],
     "sourceProjects": [
       "AIPharmacyOperationsManager"
@@ -364,10 +428,71 @@
     ],
     "evidence": [
       {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/ClaimDenialPredict.js:1",
+        "route": "/claim-denial-predict",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Counseling Notes",
+    "canonicalKey": "ai counseling note",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-counseling-notes",
+      "/patients?tool=ai-counseling-notes"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Patients.js:1",
+        "route": "/patients?tool=ai-counseling-notes",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
         "kind": "api",
         "sourceProject": "AIPharmacyOperationsManager",
         "path": "backend/routes/patients.js:118",
         "route": "/:id/ai-counseling-notes",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Diversion Detection",
+    "canonicalKey": "ai detection diversion",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/diversion-detect"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/DiversionDetect.js:1",
+        "route": "/diversion-detect",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       }
     ]
@@ -494,11 +619,9 @@
     "sourceProjects": [
       "AIHospitalBedResourceOptimizer",
       "AIPharmacyOperationsManager",
-      "AIpoweredembryo",
-      "coaching-wellness"
+      "AIpoweredembryo"
     ],
     "consolidatedFromApps": [
-      "healthcare-life-sciences/coaching-wellness-merged",
       "healthcare-life-sciences/industrial-io-t-anomaly-detector",
       "healthcare-life-sciences/pharmacy-operations-manager"
     ],
@@ -537,20 +660,32 @@
         "path": "backend/routes/dashboard.js:38",
         "route": "/ai-insights",
         "originApp": "healthcare-life-sciences/industrial-io-t-anomaly-detector"
-      },
+      }
+    ]
+  },
+  {
+    "name": "AI Interaction Check Drug Disease Allergy Drug",
+    "canonicalKey": "ai allergy check disease drug interaction",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/interaction-check-ai"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
       {
-        "kind": "navigation",
-        "sourceProject": "coaching-wellness",
-        "path": "src/components/Navbar.tsx:15",
-        "route": "",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "coaching-wellness",
-        "path": "src/app/ai-insights/page.tsx",
-        "route": "/ai-insights",
-        "originApp": "healthcare-life-sciences/coaching-wellness-merged"
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/InteractionCheckAI.js:1",
+        "route": "/interaction-check-ai",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       }
     ]
   },
@@ -2230,6 +2365,32 @@
     ]
   },
   {
+    "name": "Demand Forecast",
+    "canonicalKey": "demand forecast",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/demand-forecast"
+    ],
+    "sourceProjects": [
+      "AIBloodBankDonationCenter"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBloodBankDonationCenter",
+        "path": "backend/routes/ai.js:204",
+        "route": "/demand-forecast",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
     "name": "Departments",
     "canonicalKey": "department",
     "aliases": [],
@@ -2653,6 +2814,49 @@
         "sourceProject": "AIPharmacyOperationsManager",
         "path": "frontend/src/pages/DrugInteractionWidget.js",
         "route": "/DrugInteractionWidget",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Drug Interactions",
+    "canonicalKey": "drug interaction",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/drug-interactions",
+      "/patients?tool=drug-interactions"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Patients.js:1",
+        "route": "/patients?tool=drug-interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "backend/routes/aiAdvanced.js:26",
+        "route": "/drug-interactions",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/App.js:124",
+        "route": "/drug-interactions",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       }
     ]
@@ -4009,9 +4213,11 @@
     "canonicalKey": "down icu recommendation step",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai/icu-step-down-recommendation",
       "/icu-step-down-recommendation"
     ],
     "sourceProjects": [
@@ -4021,6 +4227,13 @@
       "healthcare-life-sciences/pharmacy-operations-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/AdvancedAITools.js:17",
+        "route": "/ai/icu-step-down-recommendation",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIHospitalBedResourceOptimizer",
@@ -4237,6 +4450,32 @@
         "sourceProject": "AIPharmacyOperationsManager",
         "path": "backend/routes/customViews.js:72",
         "route": "/inventory-heatmap",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Inventory Management",
+    "canonicalKey": "inventory",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/inventory"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Inventory.js:1",
+        "route": "/inventory",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       }
     ]
@@ -4679,6 +4918,32 @@
         "sourceProject": "ai-prior-authorization-operations-hub",
         "path": "frontend/src/app/not-found.tsx",
         "route": "/",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      }
+    ]
+  },
+  {
+    "name": "Notification Details",
+    "canonicalKey": "notification",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/notifications"
+    ],
+    "sourceProjects": [
+      "AIPharmacyOperationsManager"
+    ],
+    "consolidatedFromApps": [
+      "healthcare-life-sciences/pharmacy-operations-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPharmacyOperationsManager",
+        "path": "frontend/src/pages/Notifications.js:1",
+        "route": "/notifications",
         "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
       }
     ]
@@ -5401,9 +5666,11 @@
     "canonicalKey": "prediction readmission risk",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai/readmission-risk-prediction",
       "/readmission-risk-prediction"
     ],
     "sourceProjects": [
@@ -5413,6 +5680,13 @@
       "healthcare-life-sciences/pharmacy-operations-manager"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIHospitalBedResourceOptimizer",
+        "path": "frontend/src/components/AdvancedAITools.js:5",
+        "route": "/ai/readmission-risk-prediction",
+        "originApp": "healthcare-life-sciences/pharmacy-operations-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "AIHospitalBedResourceOptimizer",
